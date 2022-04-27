@@ -1,2 +1,1 @@
-<!-- https://jochemv01.github.io/Teachable_Machine/ -->
-# Teachable_Machine
+<!-- https://jochemv01.github.io/Portfolio/ -->
