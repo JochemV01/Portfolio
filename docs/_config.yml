@@ -18,16 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+author:
+  name: Jochem Verstegen
+  email: portfolio@jochem.tk
 title: Portfolio Jochem Verstegen
-author.name: Jochem Verstegen
-author.email: portfolio@jochem.tk
 description: >- # this means to ignore newlines until "baseurl:"
   This is my portfolio!
 #baseurl: "/Teachable_Machine" # the subpath of your site, e.g. /blog
 #url: "https://jochemv01.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://portfolio.jochem.tk"
-social.twitter: JJ0chem
-social.github:  JochemV01
+minima:
+  social_links:
+    twitter: JJ0chem
+    github:  JochemV01
 
 # Build settings
 theme: minima
