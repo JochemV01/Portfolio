@@ -18,13 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Teachable Machine Tutorial
-email: tm.tutorial@jochem.tk
+title: Portfolio Jochem Verstegen
+author: Jochem Verstegen
+email: portfolio@jochem.tk
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a tutorial about how to make Teachable Machine work in your own webpage
-  with a file-upload instead of the webcame. I did not find how to do this anywhere
-  on the internet, so I had to figure it out on my own. Hopefully this is helpful
-  to you!
+  This is my portfolio!
 #baseurl: "/Teachable_Machine" # the subpath of your site, e.g. /blog
 #url: "https://jochemv01.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://portfolio.jochem.tk"
