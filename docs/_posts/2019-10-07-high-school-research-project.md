@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "High school research project (VWO)"
-date:   2019-10-07 14:30:00 +0200
+title: "High school research project (VWO)"
+date: 2019-10-07 14:30:00 +0200
 category: High School
+tags: Research EV Behavior Users
 ---
 
 In the final year of high school (VWO), we had to conduct an individual research project on a subject of our own choosing. In Dutch, this is called "eindwerkstuk". I chose the subject "Alternate fuels for cars" and focussed on the behavior change needed to switch from fossil fueled cars to electric or hydrogen vehicles.
