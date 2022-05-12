@@ -2,6 +2,13 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 .btn {
-    background-color: rgb(236, 121, 44);
+    background-color: rgb(214, 94, 15);
     padding: 15px;
+    margin: 15px;
+    border-radius: 100px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgba(214, 94, 15, 0.7);
 }
