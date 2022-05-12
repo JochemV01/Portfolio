@@ -10,8 +10,8 @@ In the final year of high school (VWO), we had to conduct an individual research
 
 <br />
 [Download Paper (Dutch)]({{ site.url }}/assets/download/EWS-Alternatieve-Brandstoffen.pdf){: .btn}
-<br />
 
+<br />
 My research and therefor the paper, consists of two parts: A more theoretical part about how the different technologies work including their pros and cons, and a more practical part where I created and analyzed a questionnaire which was filled in by 147 respondents. This second part was the main part of my project.
 
 ## Findings
