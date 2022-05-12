@@ -8,8 +8,8 @@ tags: Research EV Behavior Users
 
 In the final year of high school (VWO), we had to conduct an individual research project on a subject of our own choosing. In Dutch, this is called "eindwerkstuk". I chose the subject "Alternate fuels for cars" and focussed on the behavior change needed to switch from fossil fueled cars to electric or hydrogen vehicles.
 
-<button name="button" onclick="assets/high-school/EWS-Alternatieve-Brandstoffen.pdf">Download Paper (Dutch)</button>
-[Download Paper (Dutch)](assets/high-school/EWS-Alternatieve-Brandstoffen.pdf){: .btn}
+<button name="button" onclick="{{ site.url }}/assets/download/EWS-Alternatieve-Brandstoffen.pdf">Download Paper (Dutch)</button>
+[Download Paper (Dutch)]({{ site.url }}/assets/download/EWS-Alternatieve-Brandstoffen.pdf){: .btn}
 
 My research and therefor the paper, consists of two parts: A more theoretical part about how the different technologies work including their pros and cons, and a more practical part where I created and analyzed a questionnaire which was filled in by 147 respondents. This second part was the main part of my project.
 
