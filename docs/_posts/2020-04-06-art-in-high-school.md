@@ -21,7 +21,7 @@ In the third year of high school, we had a course about coppersmithing. Out of c
 ## Societree
 In the fourth year of high school, we could determine ourselves what artwork to make. The only requirement is that it should be related to society. Since I enjoyed blacksmithing so much, I decided to take this opportunity to use this technique once more. I created a tree with a ladder against it, the tree resembles society. The people at the bottom of the tree want to get to the top, hence the ladder. However, the ladder is missing some steps, making it impossible to climb it. Steps are being sold separately, though they are only sold at the top of the tree and they are very expensive. This means that in order to get to the top of the tree, the people at the bottom need help from the people at the top.
 
-![Societree]({{ site.url }}/assets/images/high-school/societree.jpeg)
+![Societree]({{ site.url }}/assets/images/high-school/societree.jpg)
 
 ## Final art assignment
 In the sixth and final year of high school, we had another free choice for our final artwork. I wanted to go big, this time using technology. I made a collage of 15 different images / illustrations, each grouped to address different current societal issues: 
