@@ -41,7 +41,7 @@ This course was an introduction into Python with certain libraries and how to us
 For me, this knowledge is useful whenever I need to analyse data from user tests (like questionnairs) or data gathered by sensors, like in the course Making Sense of Sensors. It is a very useful skill to have and can always come in handy. Additionally, it gives me a solid base in case I need Python for something else, since it is a very multifunctional programming language.
 
 ## Project 2: Design
-In this client project for Catawiki, an auctioning platform where anyone can sell an item, we redesigned the flow a seller would go through when creating a new auction. The goal was to make use of AI in this new interface, our idea was to use AI to extract information about the item from the pictures to pre-fill as much information as possible. An important aspect of this was how to deal with uncertainty by the AI and how to communicate this to the user. %%More information about this project can be read on its page.%%
+In this client project for Catawiki, an auctioning platform where anyone can sell an item, we redesigned the flow a seller would go through when creating a new auction. The goal was to make use of AI in this new interface, our idea was to use AI to extract information about the item from the pictures to pre-fill as much information as possible. An important aspect of this was how to deal with uncertainty by the AI and how to communicate this to the user. More information about this project can be read on [this page](https://portfolio.jochem.tk/projects/2021/12/17/redesigning-auction-submission-flow-with-ai.html).
 
 ![HTML image upload page]({{ site.url }}/assets/images/programming/proj2-upload.png)
 
