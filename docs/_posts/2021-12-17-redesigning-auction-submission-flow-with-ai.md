@@ -24,7 +24,7 @@ Then, before actually starting with entering the details for the submission, the
 
 You can try out the part of our prototype after uploading the images below.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="750" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FHJozdTgh71x8MeeIPjL1x5%2FProject-2---Catawiki%3Fnode-id%3D959%253A2183%26starting-point-node-id%3D959%253A2181%26scaling%3Dscale-down-width" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="750" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FHJozdTgh71x8MeeIPjL1x5%2FProject-2---Catawiki%3Fnode-id%3D959%253A2183%26starting-point-node-id%3D959%253A2181%26scaling%3Dscale-down-width" allowfullscreen></iframe>
 
 ## Demonstrator
 The screenshots you see on this page, are part of our demonstrator we created for Demoday. Additionally, this prototype includes a webpage to upload an image and uses Google's Teachable Machine to analyse the image. At our Demoday stand, we allowed any visitors to take a picture of one of our four example items, "upload" their own picture to this webpage, and continue with the submission flow about the item of their choosing.
