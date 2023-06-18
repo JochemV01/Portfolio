@@ -17,8 +17,6 @@ In this research project my team and I looked into the future of time. Or more s
 <br />
 [Read our paper!]({{ site.url }}/assets/download/Disregarding-of-exact-time.pdf){: .btn}
 
-<br />
-
 ## Autoethnographic experiment
 After identifying the topic, we started with an autoethnographic study to try to find out for ourselves what living without an exact time can mean. As someone who always wears a watch and is almost addicted to knowing what time it is, I took this experiment the furthest by removing or covering the clock from my electronic devices (phone, tablet, laptop and desktop) and stopping or avoiding clocks in my house and surroundings. I did this for 6 consecutive days, of course still being able to check the time when I needed to and documenting all of these occurrences. 
 
