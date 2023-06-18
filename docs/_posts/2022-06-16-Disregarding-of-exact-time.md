@@ -36,7 +36,7 @@ We created two design concepts to show the time in an abstract way: A planner an
 
 Our main prototype, which was also used in our follow-up study, was the abstract planner. It is a round disk which makes a full rotation every 24 hours, like earth. The colours correspond with the time of day, allowing the user to see approximately what time of day it is. Users can write something they want to do on a flag, which can be placed in one of the 6 holes. This way, the user can approximately plan their day and because of the rotation, they can see when a planned event is approaching. The flags have different colours, allowing multiple users to use the same planner and see each other's planning. The four different shapes of flags can be used to make categories, which are open to personal application by the user.
 
-![Planner]({{ site.url }}/assets/images/projects/p3-planner.png)
+![Planner]({{ site.url }}/assets/images/projects/p3-planner.jpg)
 
 ## User diary study
 We performed a diary study where one participant (and their family) used the planner for a duration of 3 days. They received a booklet with instructions and an assignment for every day. During the day the participant could write down their thoughts and feelings, in the evening they could reflect on the usage of the device. While at first there were some frustrations and confusion, eventually they found a way they can use the device. A limitation the participant experienced was related to spontaneous activities that were not planned at the start of the day. Eventually, they decided to only place this spontaneous activity in the device if it were to happen later that day, otherwise they would simply do the activity without planning it beforehand. 
