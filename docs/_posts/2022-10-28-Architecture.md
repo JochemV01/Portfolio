@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Device for exchanging music"
+title: "Architecture and the city"
 date: 2022-10-28 09:00:00 +0200
 category: Courses
 tags: Architecture city scalemodel building house fallingwater
