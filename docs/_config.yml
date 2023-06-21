@@ -30,7 +30,7 @@ url: "https://portfolio.jochem.tk"
 minima:
   skin: dark
   social_links:
-    twitter: JJ0chem
+    # twitter: JJ0chem
     github:  JochemV01
     linkedin: jochemverstegen
 

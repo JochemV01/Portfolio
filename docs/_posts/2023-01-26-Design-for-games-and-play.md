@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Design for games and play"
+date: 2022-06-30 09:00:00 +0200
+category: Courses
+tags: Games play fun interactive Unity programming theory
+---
+
+Games and play is a large part of industrial design. And with this, I not only mean designing actual games, but also making other designs more fun and engaging through gamification. I have followed two electives about games and play: The first about game design and the second about serious applications for games. And while I discovered that making games is not something I particularly enjoy, some of the things I learned can still be very useful for when I aim to apply gamification elements to my designs. Because in some cases, this is just a good way to make a design more fun and straight up better.
+
+Most of these things, I learned by making the individual resit assignment for the first course. My group was slightly disfunctional and put way too much focus on "making it work in Unity", to the point where we made most decisions based on whether we could make it in Unity instead of basing them on theory and how much fun it would make our game (which was the entire topic of the course). So, after I came to realise this when looking at our grade, it made a lot of sense why I needed to do the resit. While working on this, it was nice to not have to think about making something in Unity and instead spend all of the time working with the theories and basing my decisions on those. In this assignment, where I made a game concept, I can really say that all decisions are fully based on theory and I experienced how various theories can be used to improve a game concept. My grade for this assignment, an 8.9, is also a pleasant confirmation to know I indeed did it properly this time.
+
+So in this assignment, I created a game concept. The requirements were that it's original and fun. My concept is a game where the player can create machines, which will together form a production line. Every machine is a different level, a production line is a full "chapter". The machines are used for mass-producing goods (anything, from paper cups to kitchen timers). As the player progresses, more mechanisms and parts are unlocked, which gradually increases the difficulty of the game. Based on Bartle's taxonomy of player types, Achievers can be considered the main player type for this game. They have high intrinsic motivation to successfully complete each level and are only satisfied when they have done things perfectly. To accommodate for this, after finishing a production line some stats can be shown allowing the player to improve some flaws in earlier levels. Since for this player types rewards should be proportional to the amount of effort invested, completing a full production line at a 100% score should unlock a major reward.
+
+I then made an MDA (mechanics, dynamics and aesthetics) model to define the needed dynamic and mechanic models based on the desired aesthetics. These are that the game should be a challenge at times, and allow for discovery, expression, fellowship and sensation. The different dynamics and mechanics to achieve these aesthetic goals are highlighted in the table:
+
+| Aesthetic  | Dynamic                                                                                | Mechanic                                                                                                                               |
+| ---------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Challenge  | Increase in difficulty by introducing new components each level                        | Introducing new components regularly and making properties more important                                                              |
+| Discovery  | Encouraging the player to keep trying out things                                       | Include a safe testing area to test anything risk-free, to learn how things work                                                       |
+| Expression | Ability to change visual properties of created machines                                | Changing colour, graphics, side-panels, etc                                                                                            |
+| Fellowship | Inviting friends to the current session                                                | Multiplayer mode                                                                                                                       |
+| Sensation  | Feedback about the state of the machine, so players can either fix it or make it worse | Structural integrity of machines affecting their performance. Sounds and visuals to reflect the integrity. Ability to destroy machines |
+
+According to self-determination theory, a game can use two sources of motivation: Intrinsic and extrinsic motivation. External rewards cause extrinsic motivation, intrinsic motivation is related to personality. As our main player type is highly intrinsically motivated, the sources of extrinsic motivation should not undermine this motivation but complement it. Creativity comes from intrinsic motivation after all, extrinsic motivation can kill creativity. After completing a level, the player can receive a minor award to complement their motivation, like a cutscene seeing and hearing the machine work. This can lead to a satisfying feeling, ultimately increasing the motivation to continue. 
+
+The rest of my game concept can be read in the report linked below. If anyone wants to make this game, feel free to do so. ;) Send me a free copy though, I'd like to play this!
+
+<br />
+[Read the Report]({{ site.url }}/assets/download/Machine-creation-game.pdf){: .btn}
+
+<br />
+The second course was about serious applications for games. With a group, we needed to design a game to promote a studies at the TU/e. We decided to promote the studies of Industrial Design, because it has many differences compared to the Industrial Design offerings at other universities. We highlighted these difficulties through a sort of office tycoon kind of game, where you have to manage an industrial design firm. The aspects of managing this, can be related to managing your own studies at TU/e. When designing the game, we payed special focus on the reward structure, the target group and other ways to make it fun while conveying a serious message. We also added minigames, which are meant to show the different expertise areas in the studies to the player. 

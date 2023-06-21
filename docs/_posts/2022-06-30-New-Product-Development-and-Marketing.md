@@ -1,0 +1,28 @@
+---
+layout: post
+title: "New product development and marketing"
+date: 2022-06-30 09:00:00 +0200
+category: Courses
+tags: Marketing development product customer value
+---
+
+For my USE learning trajectory, I followed the [New Product Development and Marketing](https://educationguide.tue.nl/programs/bachelor-college/use-learning-trajectory/new-product-development-and-marketing) trajectory, consisting of the courses *New Product Marketing*, *Marketing Research and Design Methods* and *Marketing in Action*. My learning points from these courses are summarised on this page.
+
+## New Product Marketing
+This course was an introduction to the topic of marketing, especially focusing on new products. It was made clear that new product marketing in this sense is not just about selling products, but more about understanding customer needs, developing new products and offering value to the customer. A useful technique to apply is bundling customers with similar needs into segments, and selecting which segments to target with a product. 
+
+This course was very theoretical. A thick book, lectures and a final exam with some assignments in between. The theory is meant to first of all know what marketing means for product development, second of all to learn how to deliver (perceived) value to customers. I learned the importance of setting the 4 P's (product, price, place and promotion) right in the marketing plan and that one of these being wrong can drastically lower the value perceived by customers. For instance: the **p**roduct should match customer needs; the **p**rice should not be too high (overpriced) or too low (uncertainty about quality); the **p**lace should be fitting to where the customer usually buys products (so not exclusively online of the customer prefers in-store); and the **p**romotion should cause customers to learn about the product and its value for them. Failing one of these can make your offer loose value and become uninteresting.
+
+## Marketing Research and Design Methods
+This course focused on methods about how to translate customer needs into product features. One method to use is cultural probing, which is a qualitative way to gain an understanding and relies on interviews and gathering data about customer's lives, values and thoughts. Other methods are more quantitative, relying on statistics to compare competitors and determine which attributes are most preferential for customers.
+
+This course was a mix of theoretical and practical. In the first part, we performed the cultural probing technique to find possible improvements for a running app or device. Our process and ideas were presented through videos and an advertising, all of which I edited. Our design concept after 4 weeks into the course was an app allowing students to find ideal times for a workout in their schedule, in order to stay fit and well focused in order to reach their deadlines. The video advertisement (edited by me) can be seen by clicking [here](https://youtu.be/0ONsQRjigKo). 
+
+The second part of the course was about quantitative marketing research. We learned how to use R (a computer language for statistical analysis) to analyse large datasets about customer needs and existing product offerings and come to a conclusion about how to improve a product to make it more desirable for customers. This mostly relates to the **P** of "Product" in the previous course, but the other P's were still relevant. For example, to position our product better for the customer we made a visual advertisement to fit the findings of our statistical analysis.
+
+## Marketing in Action
+This course was the most practical of all, taking what was learned in the previous courses and applying it as an actual marketing department in an online simulator called [Markstrat](https://web.stratxsimulations.com/simulation/strategic-marketing-simulation). This simulator was about making business decisions, launching new products, relocating existing ones and predicting the market, all while competing with other student groups. In this simulation, actual market research doesn't need to be performed, except the results are delivered which can be used to make decisions. So, in a way this is the next step after learning how to do marketing research like in the previous course. Every decision made could have positive or negative effects for the firm you're maintaining in a group, making careful and strategic decisions important. 
+
+This was a very hands-on course. The simulation was a nice way to get an idea about what decisions can be made based on marketing research. My group made a pretty smart decision early on, responding quickly to the starting situation, correctly predicting what our competitors will do and having the most popular brands for 3 our of 5 customer segments. For some rounds of the simulation, we were the market leaders overall. However, near the end of the simulation some other groups started to respond and launch new brands to take away most of our market share. 
+
+This is where our main learning point of this course comes from: Even as the market leader in a comfortable position, you can never afford to settle and stay where you are. Developing new products takes time, and if you don't keep focusing on the upcoming opportunities in the market and strengthening your position, your competitors can start developing new products before you realised and any response will be too late. This was a valuable lesson learned from this course. Never settle!
