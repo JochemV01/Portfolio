@@ -20,7 +20,7 @@
 
 author:
   name: Jochem Verstegen
-  email: portfolio@jochem.tk
+  email: portfolio.contact@jochem.tk
 title: Portfolio Jochem Verstegen
 description: >- # this means to ignore newlines until "baseurl:"
   This is my portfolio!
@@ -32,6 +32,7 @@ minima:
   social_links:
     twitter: JJ0chem
     github:  JochemV01
+    linkedin: jochemverstegen
 
 # Build settings
 theme: minima
