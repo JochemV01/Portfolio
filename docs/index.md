@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Portfolio
+title: Home
 ---
 
 ![Cover Image](assets/personal-image.png)
