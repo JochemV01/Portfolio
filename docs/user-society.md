@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "User and Society"
-permalink: /expertise-areas/u-s
+# permalink: /expertise-areas/u-s
 ---
 
 Without involving users in the design process, there is no way to know whether the design would actually be used by anyone. Design can be about creating value for people, or helping people create value for non-humans, but it has to achieve at least one of these. 
