@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Professional Identity and Vision"
-permalink: /pi&v/
+permalink: /pi&v
 ---
 
 For my studies, I need to write a piece of text called my "professional identity and vision" and keep this updated constantly. It describes who I am as a designer and what my vision is for the future. Below, you can read the most recent version of my PI&V.
