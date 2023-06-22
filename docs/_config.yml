@@ -40,6 +40,10 @@ plugins:
   - jekyll-feed
   # - jekyll-remote-theme
 
+collections:
+  expertise_areas:
+    output: true
+    # permalink: /expertise-areas/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.
