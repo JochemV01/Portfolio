@@ -1,8 +1,8 @@
 toc2:
 - page: Professional Identity & Vision
   url: pi&v.html
-# - page: My work
-#   url: my_work.html
+- page: My work
+  url: my-work.html
 - page: Development
   url: development.html
   subfolderitems:
