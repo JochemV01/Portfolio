@@ -1,20 +1,20 @@
 toc2:
 - page: Professional Identity & Vision
-  url: pi&v.html
+  url: https://portfolio.jochem.tk/pi&v.html
 - page: My work
-  url: my-work.html
+  url: https://portfolio.jochem.tk/my-work.html
 - page: Development
-  url: development.html
+  url: https://portfolio.jochem.tk/development.html
   subfolderitems:
     - page: Business & Entrepreneurship
-      url: development/b&e.html
+      url: https://portfolio.jochem.tk/development/b&e.html
     - page: Creativity & Aesthetics
-      url: development/c&a.html
+      url: https://portfolio.jochem.tk/development/c&a.html
     - page: Math, Data & Computing
-      url: development/md&c.html
+      url: https://portfolio.jochem.tk/development/md&c.html
     - page: Technology & Realization
-      url: development/t&r.html
+      url: https://portfolio.jochem.tk/development/t&r.html
     - page: User & Society
-      url: development/u&s.html
+      url: https://portfolio.jochem.tk/development/u&s.html
 - page: Future
-  url: future.html
+  url: https://portfolio.jochem.tk/future.html
