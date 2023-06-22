@@ -1,5 +1,5 @@
 ---
-layout: page
+# layout: page
 title: "Business and Entrepreneurship"
 # permalink: /:path/b-e
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+# layout: page
 title: "User and Society"
 # permalink: /:path/u-s
 ---

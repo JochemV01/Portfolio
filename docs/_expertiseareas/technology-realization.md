@@ -1,5 +1,5 @@
 ---
-layout: page
+# layout: page
 title: "Technology and Realization"
 # permalink: /:path/t-r
 ---

@@ -41,7 +41,7 @@ plugins:
   # - jekyll-remote-theme
 
 collections:
-  expertise_areas:
+  expertiseareas:
     output: true
     permalink: /expertise-areas/:name
 

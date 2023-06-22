@@ -1,5 +1,5 @@
 ---
-layout: page
+# layout: page
 title: "Creativity and Aesthetics"
 # permalink: /:path/c-a
 ---

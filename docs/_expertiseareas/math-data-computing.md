@@ -1,5 +1,5 @@
 ---
-layout: page
+# layout: page
 title: "Math, Data and Computing"
 # permalink: /:path/md-c
 ---
