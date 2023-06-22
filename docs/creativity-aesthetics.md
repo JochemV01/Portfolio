@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Creativity and Aesthetics"
-# permalink: /expertise-areas/c-a
+permalink: /expertise-areas/c-a
 ---
 
 Without this expertise area, Industrial Design wouldn't exist. Creativity is a necessity for design and innovation. Whenever there is brainstorming involved, creativity is needed. I am fortunate that my creativity has sparked numerous ideas during my studies, it is always a nice feeling when an idea of mine is appreciated and taken further in a process. But I am also able to recognise someone else's creative ideas and iterate further on those. Creativity often works best in a team setting, but individually it is also possible. 
