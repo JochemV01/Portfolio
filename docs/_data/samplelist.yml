@@ -1,0 +1,20 @@
+toc2:
+- page: Professional Identity & Vision
+  url: pi&v
+# - page: My work
+#   url: my_work
+- page: Development
+  url: development
+  subfolderitems:
+    - page: Business & Entrepreneurship
+      url: development/b&e
+    - page: Creativity & Aesthetics
+      url: development/c&a
+    - page: Math, Data & Computing
+      url: development/md&c
+    - page: Technology & Realization
+      url: development/t&r
+    - page: User & Society
+      url: development/u&s
+- page: Future
+  url: future
