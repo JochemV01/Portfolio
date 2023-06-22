@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Business & Entrepreneurship"
+title: "Business and Entrepreneurship"
 permalink: /b-e/
 ---
 

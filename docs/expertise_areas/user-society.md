@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "User & Society"
+title: "User and Society"
 permalink: /u-s/
 ---
 
