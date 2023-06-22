@@ -1,7 +1,7 @@
 ---
 layout: page
 # title: "Math, Data and Computing"
-permalink: /expertise-areas/md&c
+permalink: /expertise-areas/md-c
 ---
 
 This expertise area is important, because it can help understand the context for which you're designing. To design, you often need to analyse quantitative data, usually large amounts in order to be reliable. There are numerous ways to do this, but during my study I have learned how to use Python with the Pandas plugin running in Jupyter Notebooks and R in Rstudio. Both are useful tools to perform a statistical analysis with large amounts of data. It could be useful to analyse multiple kinds of data. When there is too much data (thousands of entries) to analyse and manipulate by hand in a tool like Excel, this is a necessary step. Like in the course [Making sense of sensors]({% post_url 2022-06-30-Making-sense-of-sensors %}), we had large amounts of heart rate, temperature, humidity and sound levels to analyse, which already meant we had to use Python. But cleaning the data to get it into a simple format to use, proved to be half of the work already. Something like that just is not possible using a tool like Excel.
