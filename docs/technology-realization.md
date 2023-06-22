@@ -1,0 +1,19 @@
+---
+layout: page
+title: "Technology and Realization"
+# permalink: /expertise-areas/t-r
+---
+
+This is all about making (functional) prototypes, either physically, digitally, or hybrid. And whenever I get to do something related to this expertise area, I thoroughly enjoy it. The making is usually my favourite part of the design process, because I can finally see my work come to life. Even before starting my studies at the university, throughout my time in high school, I loved making stuff. In high school, I was able to do things like [blacksmithing or coppersmithing]({% post_url 2020-04-06-art-in-high-school %}) and I absolutely loved it. But even if it is not as hands-on as metalworking, I always like to think about how to make something and get something to work. I also feel like this is a big strength of mine. 
+
+Because my first year was almost exclusively online due to Covid lockdowns, my first time making a physical prototype at university was in my second year. During the course Engineering design, I took the responsibility to make the physical prototype. I loved to finally be able to cut wood in the vertigo workshop, think about how to make everything fit, where to fit the electronics, and the end result being so dense.
+
+![Pill popper being made]({{ site.url }}/assets/images/courses/ed-pill-popper.jpg)
+
+Throughout my study, I have improved my prototyping skills. I started using different materials, like acrylic and fabrics. During the course [aesthetics of interaction]({% post_url 2022-06-30-Device-for-Exchanging-Music %}) I made a wearable prototype from fabric in the wearable senses lab during the group project, and for the individual resit assignment I made a green-screen by placing green paper behind an acrylic piece, so I could use advanced video-editing to add the interactive screen to it. Similarly, I already used video-editing to make our prototype look real during [project 1]({% post_url 2021-06-04-Exercise-in-public-transport %}), which I think is a very nice technique to use to show concepts which would otherwise not be feasible to make. In both cases, I added digital screens to designs to which it was not possible to add real screens. 
+
+![Storage folder to bring tools]({{ site.url }}/assets/images/courses/storage-map.jpg)
+
+Even when I don't need to for a course, I still make things when I think it will be useful for me. Like when I started following the course [exploratory making]({% post_url 2023-04-13-Exploratory-making %}), it was not very convenient to bring all the tools and equipment I needed in a separate bag. So, I made a handy sort-of-folder with a zipper to store all the tools and equipment, where they still live to this day. I made this the exact same size as one of the compartments in my backpack, so it fits perfectly in there and I don't need to bring a separate bag with me on the train. This course also taught me [new techniques]({% post_url 2023-04-13-Exploratory-making %}) to make prototypes, using cardboard modelling and incorporating electronics. Using these techniques can be very quick, but still strong enough for various prototypes, ranging from low to high quality. 
+
+Another new prototyping method I learned to use for my [final bachelor project]({% post_url 2023-06-15-Slideo %}) is 3D printing. In some cases, this is the only reliable way to make a prototype, for example when it needs to have specific dimensions or a mechanism. As I described on the page about the project, I learned multiple things about 3D printing now that I have some experience with it. Because of this first experience, I know what things I would do differently in order to lead to better results. Much like anything else, 3D printing is a learning process, and mastering this prototyping method takes time. But, I feel like I have already learned plenty about 3D printing in order to use it properly for future prototypes when needed.
