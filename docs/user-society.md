@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: "User and Society"
+title: "User and Society"
 permalink: /expertise-areas/u-s
 ---
 

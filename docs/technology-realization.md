@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: "Technology and Realization"
+title: "Technology and Realization"
 permalink: /expertise-areas/t-r
 ---
 

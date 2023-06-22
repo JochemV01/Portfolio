@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: "Business and Entrepreneurship"
+title: "Business and Entrepreneurship"
 permalink: /expertise-areas/b-e
 ---
 

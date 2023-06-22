@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: "Math, Data and Computing"
+title: "Math, Data and Computing"
 permalink: /expertise-areas/md-c
 ---
 

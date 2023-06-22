@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: "Creativity and Aesthetics"
+title: "Creativity and Aesthetics"
 permalink: /expertise-areas/c-a
 ---
 
