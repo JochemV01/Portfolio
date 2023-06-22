@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Technology and Realization"
-permalink: /t-r/
+# permalink: /:path/t-r
 ---
 
 This is all about making (functional) prototypes, either physically, digitally, or hybrid. And whenever I get to do something related to this expertise area, I thoroughly enjoy it. The making is usually my favourite part of the design process, because I can finally see my work come to life. Even before starting my studies at the university, throughout my time in high school, I loved making stuff. In high school, I was able to do things like [blacksmithing or coppersmithing]({% post_url 2020-04-06-art-in-high-school %}) and I absolutely loved it. But even if it is not as hands-on as metalworking, I always like to think about how to make something and get something to work. I also feel like this is a big strength of mine. 
