@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creativity & Aesthetics
+title: "Creativity & Aesthetics"
 permalink: /c&a/
 ---
 

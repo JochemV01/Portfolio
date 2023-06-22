@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Math, Data & Computing
+title: "Math, Data & Computing"
 permalink: /md&c/
 ---
 

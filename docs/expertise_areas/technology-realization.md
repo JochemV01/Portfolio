@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Technology & Realization
+title: "Technology & Realization"
 permalink: /t&r/
 ---
 

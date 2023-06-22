@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Professional Identity and Vision
+title: "Professional Identity and Vision"
 permalink: /pi-v/
 ---
 
