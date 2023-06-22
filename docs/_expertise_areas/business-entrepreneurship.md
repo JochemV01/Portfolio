@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Business and Entrepreneurship"
-permalink: /expertise-areas/b&e
+permalink: /development/b&e
 ---
 
 During the first year of my studies at Industrial Design, I did not really do anything about this expertise area. Some of my group members during [Project 1]({% post_url 2021-06-04-Exercise-in-public-transport %}) were following an elective about business, so they made the business model canvas while I focused on other things. The other courses during this year, did not involve business either. To compensate for this, I decided at the time to follow the USE Learning Line about [marketing and new product development]({% post_url 2022-06-30-New-Product-Development-and-Marketing %}), where I learned exactly what marketing is about and how to make marketing decisions. After this, I followed the course [Design Innovation Methods]({% post_url 2023-04-13-Design-Innovation-Methods %}) where I learned how to analyse a company and its customers in detail and formulate design opportunities based on this analysis. I also used this knowledge in my [Final Bachelor Project]({% post_url 2023-06-15-Slideo %}) to make sure my design would be feasible in a potential future business scenario. I am pretty confident that after my bachelor, I am capable of considering the business side of the design and deliver a realistic and feasible product. 
