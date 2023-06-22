@@ -41,6 +41,9 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+show_downloads: false
+logo: /assets/images/logo.png
+
 collections:
   expertise_areas:
     output: true
