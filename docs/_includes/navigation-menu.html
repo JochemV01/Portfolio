@@ -1,17 +1,26 @@
-<div>
+<div class="navigation">
     {% if site.data.samplelist.toc2[0] %}
-    <ul>
         {% for item in site.data.samplelist.toc2 %}
-        <li><a href="{{ item.url }}">{{ item.page }}</a>
+        <a class="nav-item" href="{{ item.url }}">
+            <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <path d="{{ item.svgpath1 }}" fill="#2B74AE"/>
+                {% if item.svgpath2[0] %}
+                    <path d="{{ item.svgpath2 }}" fill="#2B74AE"/>
+                {% endif %}
+              </svg>
+              <p class="nav-text">{{ item.page }}</p>
+        </a>
             {% if item.subfolderitems[0] %}
-                <ul>
-                {% for subitem in item.subfolderitems %}
-                    <li><a href="{{ subitem.url }}">{{ subitem.page }}</a></li>
-                {% endfor %}
-                </ul>
+                <div class="nav-group">
+                    <div class="nav-subitems">
+                        {% for subitem in item.subfolderitems %}
+                            <a class="nav-subitem" href="{{ subitem.url }}">
+                                <p class="nav-subitem-text">{{ subitem.page }}</p>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
             {% endif %}
-        </li>
         {% endfor %}
-    </ul>
     {% endif %}
 </div>
