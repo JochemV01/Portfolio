@@ -111,9 +111,6 @@ body {
         gap: 0.625rem;
     }
 }
-/* .content {
-
-} */
 .logo {
     width: 7.10881rem;
     height: 6.674rem;
@@ -233,15 +230,15 @@ p {
     .footer-bottom {
         display: none;
     }
-    // .content {
-    //     display: flex;
-    //     flex-direction: column;
-    //     height: 100vh;
-    // }
-    // .scroll {
-    //     overflow-y: auto;
-    //     flex: 1 1 100%;
-    // }
+    .content {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .scroll {
+        overflow-y: auto;
+        flex: 1 1 100%;
+    }
 }
 .links {
     display: flex;
@@ -250,7 +247,7 @@ p {
     gap: 1.875rem;
     align-self: stretch;
 }
-    .link {
+.link {
     width: 1.875rem;
     height: 1.875rem;
 
