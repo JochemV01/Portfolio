@@ -12,13 +12,21 @@ Much like exploring by sketching, exploring by making is a very useful skill to 
 
 During this course, I made some simple models to learn how to make different shapes, and simple mechanisms to learn those as well. Then, I explored and created a rich interaction light controller, an interactive and expressive useless machine (it's cute!) and finally a rich interaction hot beverage vending machine. Pictures and videos of all of these models can be found below.
 
+<div class="iframe-video">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ToTh1Lf8Ds4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
+<div class="iframe-video">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kJCuvUZ-5kI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
+<div class="iframe-video">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vTdjPXwYhFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
+<div class="iframe-video">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ps2-XXITfvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ![Vending machine 1]({{ site.url }}/assets/images/courses/exploratory-making/vending-machine-1.jpg)
 ![Vending machine 2]({{ site.url }}/assets/images/courses/exploratory-making/vending-machine-2.jpg)
