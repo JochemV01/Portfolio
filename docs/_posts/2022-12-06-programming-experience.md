@@ -25,7 +25,9 @@ After trying to use the 3D renderer for the first challenge but finding out it w
 
 For the second challenge, I made an escape room with various puzzles on all 4 walls. All of these puzzles need to be solved in order to open the door. The following video shows this escape room being solved.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9xznC1W-WKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-video">
+<iframe src="https://www.youtube-nocookie.com/embed/9xznC1W-WKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Creative Electronics
 *Programming language: Arduino IDE*
@@ -33,7 +35,9 @@ This course introduced electronics for us to use in future designs. It started w
 
 ![Miniproject Poster]({{ site.url }}/assets/images/programming/creaelec-poster.png)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zOZhHphpu9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-video">
+<iframe src="https://www.youtube-nocookie.com/embed/zOZhHphpu9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Data Analytics for Engineers
 This course was an introduction into Python with certain libraries and how to use this to analyse large datasets, too large to use Excel. It covered some theory about best practices, and practical assignments about cleaning the data, manipulating it, visualizing it and performing statistical tests to prove or reject hypotheses. 
