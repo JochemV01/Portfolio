@@ -12,7 +12,9 @@ In this research project my team and I looked into the future of time. Or more s
 
 ![Futures Wheel]({{ site.url }}/assets/images/projects/p3-futures-wheel.png)
 
+<div class="iframe-video">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NAewCEz69X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <br />
 [Read our paper!]({{ site.url }}/assets/download/Disregarding-of-exact-time.pdf){: .btn}
