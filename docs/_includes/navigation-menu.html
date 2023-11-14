@@ -4,9 +4,7 @@
         <a class="nav-item" href="{{ item.url }}">
             <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                 <path d="{{ item.svgpath1 }}" fill="#2B74AE"/>
-                {% if item.svgpath2[0] %}
-                    <path d="{{ item.svgpath2 }}" fill="#2B74AE"/>
-                {% endif %}
+                <path d="{{ item.svgpath2 }}" fill="#2B74AE"/>
               </svg>
               <p class="nav-text">{{ item.page }}</p>
         </a>
