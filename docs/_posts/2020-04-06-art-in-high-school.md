@@ -34,7 +34,9 @@ In the sixth and final year of high school, we had another free choice for our f
 
 For each of these issues, I made an audio fragment consisting of news items / advertisements / explaining videos about the subjects, mixing Dutch and English sources. Each audio fragment is approximately one minute, during which I programmed all individual lights behind the images to light up. In a completely dark room, you will hear an audio fragment and see relevant images light up, getting brighter and dimming again, across the whole artwork.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ANfDXEvvNpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-video">
+<iframe src="https://www.youtube-nocookie.com/embed/ANfDXEvvNpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
