@@ -24,4 +24,6 @@ My group's concept is a kitchen aid to help blind people follow a recipe. Curren
 
 For our prototype, we are using the webcam in the laptop, similar to my individual assignment I made before this. In fact, we can reuse most of the code, making small changes to it in order to add speech output based on the current step. We trained the model by pointing the laptop's webcam towards the table and placing various vegetables on the table. We did this in various lighting conditions and on multiple surfaces in order to make the model reliable in varying conditions. We also used multiple different types of classifiers to compare the performances of different models and optimised the models by searching the best variables for each classifier. To compare the performance, we used a different dataset from the one used to train the model.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rtKj-PRrSbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="iframe-video">
+<iframe src="https://www.youtube-nocookie.com/embed/rtKj-PRrSbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
