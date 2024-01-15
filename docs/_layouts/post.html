@@ -4,12 +4,17 @@ layout: default
 
 <div class="content col-6 col-m-9 col-s-8">
 
+  {% if page.image %}
+    <img class="coverimage" src="{{ site.url }}/{{ page.image }}">
+  {% endif %}
+
+  <small>{{ page.date | date: "%-d %B %Y" }}</small>
+  
   <div class="title">
     <h1 class="page-title">{{ page.title }}</h1>
   </div>
   
   <div class="scroll">
-    <small>{{ page.date | date: "%-d %B %Y" }}</small>
 
     {{content}}
 
