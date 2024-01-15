@@ -4,9 +4,8 @@ title: "Disregarding of the exact time"
 date: 2022-06-16 09:00:00 +0200
 category: Projects
 tags: Research prototype artifact diary study autoethnographic
+image: assets/images/projects/p3-demoday-thumbnail.png
 ---
-
-![Demoday Thumbnail]({{ site.url }}/assets/images/projects/p3-demoday-thumbnail.png)
 
 In this research project my team and I looked into the future of time. Or more specifically, how we as human beings will perceive time. We identified some upcoming current trends like the automation of production lines, increased awareness of mental health, and the increase of virtual working (especially during the COVID pandemic). A potential result of all of these trends, is more flexible working. Through a futures wheel, we reasoned that flexible working can result in non-fixed working hours, which could mean that the exact time won't be as important anymore for everyone. Perhaps, instead of starting work at 8:00, people could start working in the morning and keep going until the late afternoon, with a lunch break somewhere in between. This disregarding of the exact time was explored further within our design research. 
 

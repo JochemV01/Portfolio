@@ -4,6 +4,7 @@ title: "Redesigning auction submission flow with AI"
 date: 2021-12-17 09:00:00 +0200
 category: Projects
 tags: AI client catawiki design webdesign html css
+image: assets/images/projects/p2-final-demoday-stand.jpg
 ---
 
 In this project, we were tasked with redesigning the auction submission flow for our client [Catawiki](https://catawiki.com). This is a website where people can auction items, ranging from vintage furniture, to cars and to LEGO. Basically anything that can be collected, can be auctioned on this site. Submitting an auction can be a long and tedious process, involving long forms of information to type in. Our goal was to use AI to improve the user experience when creating a new submission. While doing this, a big focus was the fact that AI will not always be correct and that we needed to find a way to deal with this.

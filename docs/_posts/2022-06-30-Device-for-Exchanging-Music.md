@@ -4,9 +4,8 @@ title: "Device for exchanging music"
 date: 2022-06-30 09:00:00 +0200
 category: Courses
 tags: Interaction physical music aesthetics touch feeling
+image: assets/images/courses/aoi-device.png
 ---
-
-![Music Device]({{ site.url }}/assets/images/courses/aoi-device.png)
 
 For the course "Aesthetics of Interaction", I designed an interactive speaker and handheld device to make exchanging songs a more enjoyable experience. The handheld device functions as the personal playlist, the idea is that both people have one. Songs can be pushed from the playlist into the speaker. If both people add a song to the speaker, it will start playing and if someone likes the song, they can add it to their playlist by pulling it out of the speaker with their device. The full concept can be seen in the [video](https://youtu.be/0ehKKDhynrA): 
 

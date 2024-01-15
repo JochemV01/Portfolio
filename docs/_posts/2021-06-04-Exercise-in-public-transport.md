@@ -4,9 +4,8 @@ title: "Exercise in public transport"
 date: 2021-06-04 08:30:00 +0200
 category: Projects
 tags: Video editing public-transport
+image: assets/images/projects/p1-poster.png
 ---
-
-![Project 1 Poster]({{ site.url }}/assets/images/projects/p1-poster.png)
 
 In project 1, our design was about exercising in trains and on stations, by making this fun using gamification. Our design concept covers two locations: The train station and the train itself. On the train platform, there would be a location with multiple screens and a 3D-camera to track the player's motion, they can play the game by physically moving their bodies. For in the train, we designed a footpad which allows for multiple different motions along with a display to show the game. In this case, the player can control the game by making the proper motion with their feet. The more active the users are, the more points they will earn in the app, which can be spent on discounted trips or other items. We created a prototype of this app in Figma, it can be accessed below here.
 
