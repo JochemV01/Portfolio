@@ -76,7 +76,7 @@
 }
 
 
-body {
+body, .email {
     max-width: 1600px;
     min-width: 300px;
     margin: auto;
@@ -123,7 +123,7 @@ body {
     line-height: normal;
     text-decoration: none;
 }
-p a, .site-info p a {
+p a {
     color: var(--primary, #E48333);
 }
 p {

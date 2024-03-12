@@ -24,7 +24,7 @@
 
             <div class="site-info">
               <a href="{{ "/" | absolute_url }}"><h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1></a>
-              <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+              <p><a class="email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
               <p>{{ site.description | default: site.github.project_tagline }}</p>
             </div>
           </div>
