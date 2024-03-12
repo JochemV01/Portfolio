@@ -111,7 +111,7 @@ body {
     stroke-width: 8px;
     stroke: var(--accent-2, #607E97);
 }
-.site-title, .site-info a h1 {
+.site-title, .site-info a {
     align-self: stretch;
     margin: 0;
 
@@ -123,7 +123,7 @@ body {
     line-height: normal;
     text-decoration: none;
 }
-p a {
+p a, .site-info p a {
     color: var(--primary, #E48333);
 }
 p {
