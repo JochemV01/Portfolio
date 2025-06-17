@@ -4,27 +4,30 @@ title: "Professional Identity and Vision"
 permalink: /pi&v
 ---
 
-For my studies, I need to write a piece of text called my "professional identity and vision" and keep this updated constantly. It describes who I am as a designer and what my vision is for the future. Below, you can read the most recent version of my PI&V.
-
-## In one sentence:
-This is the summary of my **Professional Identity** in one sentence:
-> I am someone with a passion for anything smart, connected or clever, who likes to keep trying out new things to work on and learn from.
-
-This is the summary of my **Vision** in one sentence:
-> Making increasingly more complex products and systems easier to understand and more intuitive to manipulate and use.
-
 ## Professional Identity
-I am someone with a passion for smart products, ranging from connected devices to internet-of-things to even a very cleverly designed item or service. My passion for smart (connected) products, like consumer electronics, has been a part of me for many years and resulted in closely following interesting activities in this area, in turn leading to a vast amount of knowledge and understanding about various types of products. Later, this passion expanded into the field of smart home, a rapidly developing market with lots of interesting innovations. Of course, I have and am still making my own home smarter using a wonderful open-source platform called [Home Assistant](https://www.home-assistant.io). 
+As a designer and person, I enjoy smart, clever products. After exploring designing various types of smart and connected systems, my work now revolves around IoT and smart home technologies. I feel satisfaction when designing valuable interactions and experiences for the smart home. I love staying up-to-date with tech and using design to bring its value into homes. RDD was the natural track for me.
 
-My passions partly define me as a person, but also partly define me as a designer. Of course, anything within my passion is something I'd be most interested in working on, as well as this being something I know and understand a great deal about. In design, this could be helpful with determining if something is possible to do or has already been done, as well as knowing where it would be possible to find inspiration. Other than that, I am someone who is always interested in trying new things, which is also true for designing. I do not want to do the same thing over and over again and love to explore new things, be it locations or technologies or anything else that is new to me. This means that as a designer, I would love to work on something different every time, including things out of my comfort zone (and passions) every now and then.
+### Strengths
+I'm organized, which helps team communication and is often appreciated by teammates. While often quietly observing and supporting, I can lead when needed, especially in areas aligned with my strengths. When leading, I prioritize inclusion and clear communication.
 
-I do not have a specific process or approach to follow during a project. When working on a project, I will do what the project needs in order to progress. This aligns with my identity, because I do not want to have "my own" approach and repeat it every time. To me, this is nice because it allows me to try different approaches. One weakness of mine is that I find it difficult to approach people to do a user study due to my shyness, though none of that shyness is visible when I am working together with people. Further, in a group I can take a leading role if needed, and usually keep our work and files organized to make it accessible for everyone. When it comes to design processes, I have a strong set of skills for prototyping and am able to work with various materials, electronics and digital tools. I see brainstorming as a joint effort in a group where every person and idea inspires new ideas, therefore I believe that even the silliest ideas are worth mentioning and exploring.
+My core strength lies in prototyping. Before Industrial Design, I was already skilled in making things (woodworking, sewing, smithing) which expanded during my studies to include mechanisms, electronics, 3D printing, and programming. I'm confident in making both physical and digital prototypes.
+
+I also bring deep knowledge of smart and connected products, gained through years of interest. I'm quick to learn and adapt new tools and techniques, making me a versatile and flexible designer.
+
+### Design Process
+I value non-linear, iterative processes like design thinking [2]. Inspiration grows with subject familiarity, prototyping and testing lead to new ideas. An iterative approach offers structure with creative flexibility, enabling user involvement and better design.
 
 ## Vision
-With more and more technology entering our lives, it can be said that things are becoming more complicated. From self-service terminals in stores, to managing more and more public services online and to dealing with an increasing amount of connected products in the house - many of them with their own separate app. We've got a lot to take care of and not everyone is able to keep up with the developments. New technologies will always keep on coming and existing ones are constantly being improved to make a process just a little easier or more efficient. 
+Human-computer interaction is evolving as computers and systems gain more functions. We moved from Command-Line Interfaces (CLIs) to Graphical User Interfaces (GUIs) [12], and now toward Conversational User Interfaces (CUIs) [1, 10]: Using natural language via AI for complex tasks. CUIs can empower users to do more, especially in complex systems like smart homes. Besides clear advantages AI systems can deliver, it will always remain important to beware of their risks when it comes to privacy, ethics, and sustainability.
 
-Some of these complex processes we don't actually have to do ourselves. In the future, there will be a lot of automations to take care of some complex process, in any fields. More and more robots are being used in production facilities, at some point cars will be better at driving themselves than human drivers, the tax office automatically makes estimations of our income to determine any allowances or taxes, lights and devices in our house could automatically switch states depending on our presence or mood, et cetera. 
+When products are connected to the Internet of Things (IoT), they gain new emergent functionalities that come with being part of a system. They can be controlled remotely, automated, and personalized. Designers should make these emergent functionalities easier to understand and use, bringing the values of IoT systems to more people. That's my focus when designing.
 
-I don't think these are bad things. On the contrary, since I always like being surrounded with new and modern stuff, I am excited for a future like this. But there are challenges to keep all these complex systems easy to understand and intuitive to control by users. I believe this will be a responsibility for industrial designers. In the future, I want to be surrounded with various kinds of new complex systems like these and turn this complexity into a fun and satisfying experience for users. My goal is not to aim at a specific group of users with more difficulty, but rather at the general user base. I want to make new novel products or systems easier to understand and use. 
+Intuitive IoT systems benefit from rich/aesthetic interactions. These use affordances to provide natural feedforward and feedback, without needing textual labels [4, 7]. Designing rich interactions benefits from exploratory and iterative design processes, which provide a lot of room for creativity while ensuring user involvement at multiple points during the design process. Even if they don’t end up in final products, they inspire user-friendly design ideas.
 
-Do I have a specific field where I want to be active? No, I don't. I like to continuously keep doing different things in my work, learning new things along the way.
+As technology evolves, designers must ensure usability and deliver the needed level of intuitiveness. I believe my skills, flexibility, and eagerness to learn make me ready for that challenge. As technology evolves, my vision on design will evolve with it as well.
+
+## References
+[1]	John Brownlee. 2016. Conversational Interfaces, Explained. Fast Company. Retrieved June 8, 2025 from https://www.fastcompany.com/3058546/conversational-interfaces-explained/
+[2]	Rikke Friis Dam. 2025. The 5 Stages in the Design Thinking Process. The Interaction Design Foundation. Retrieved June 17, 2025 from https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process
+[10] Cosima Mielke. 2016. Conversational Interfaces: Where Are We Today? Where Are We Heading? Smashing Magazine. Retrieved June 8, 2025 from https://www.smashingmagazine.com/2016/07/conversational-interfaces-where-are-we-today-where-are-we-heading/
+[12] 2025. User interface. Wikipedia. Retrieved June 17, 2025 from https://en.wikipedia.org/w/index.php?title=User_interface&oldid=1292076320

@@ -20,18 +20,16 @@
 
 author:
   name: Jochem Verstegen
-  email: portfolio.contact@jjochem.nl
+  email: hello@jjochem.nl
 title: Portfolio Jochem Verstegen
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my portfolio! I am continuously working on this website, improving it and adding new content all the time.
-  So feel free to check back later! Also, feel free to reach out to me!
+  Welcome to my portfolio! The purpose of this portfolio is to allow assessors to assess my development during my Master's at Industrial design, and especially during my FMP.
 #baseurl: "/Teachable_Machine" # the subpath of your site, e.g. /blog
 #url: "https://jochemv01.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://portfolio.jjochem.nl"
 minima:
   skin: dark
   social_links:
-    # twitter: JJ0chem
     github:  JochemV01
     linkedin: jochemverstegen
 
