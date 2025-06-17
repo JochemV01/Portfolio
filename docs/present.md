@@ -4,6 +4,8 @@ title: "Present (FMP and Development)"
 permalink: /present
 ---
 
+# Final Master Project
+
 ## Project Overview and Goals
 *(Note: Due to an NDA, project details and deliverables are excluded.)*
 
@@ -36,6 +38,8 @@ Working at Signify was an enriching experience. Regular presentations improved m
 My work held value for Signify, evidenced by the custom internship position they created for me and shared interest in the project:
 > “Our collaboration explores how AI can enhance lighting automation experiences… aligning with Signify’s ambition to enrich user engagement in smart lighting solutions.”
 > *— Laura Taylor, Head of Design Exploration at Signify*
+
+# Development
 
 ## Expertise Area Reflections
 
@@ -76,7 +80,7 @@ This project shaped my professional identity and vision. The GUI-to-CUI shift hi
 
 It also reaffirmed my preference for iterative, non-linear processes like design thinking [2], which balance creativity with structure for continued refinement and justification of decisions.
 
-## References
-[2]	Rikke Friis Dam. 2025. The 5 Stages in the Design Thinking Process. The Interaction Design Foundation. Retrieved June 17, 2025 from https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process
-[8]	Pegah Karimi, Jeba Rezwana, Safat Siddiqui, Mary Lou Maher, and Nasrin Dehbozorgi. 2020. Creative sketching partner: an analysis of human-AI co-creativity. Proceedings of the 25th International Conference on Intelligent User Interfaces (March 2020), 221–230. https://doi.org/10.1145/3377325.3377522
-[12] 2025. User interface. Wikipedia. Retrieved June 17, 2025 from https://en.wikipedia.org/w/index.php?title=User_interface&oldid=1292076320
+# References
+[2]	Rikke Friis Dam. 2025. The 5 Stages in the Design Thinking Process. The Interaction Design Foundation. Retrieved June 17, 2025 from <https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process>
+[8]	Pegah Karimi, Jeba Rezwana, Safat Siddiqui, Mary Lou Maher, and Nasrin Dehbozorgi. 2020. Creative sketching partner: an analysis of human-AI co-creativity. Proceedings of the 25th International Conference on Intelligent User Interfaces (March 2020), 221–230. <https://doi.org/10.1145/3377325.3377522>
+[12] 2025. User interface. Wikipedia. Retrieved June 17, 2025 from <https://en.wikipedia.org/w/index.php?title=User_interface&oldid=1292076320>
