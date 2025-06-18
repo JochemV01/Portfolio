@@ -27,11 +27,11 @@ toc2:
   svgpath1: M2.5 20.1084L10 12.5984L14 16.5984L21.09 8.62842L22.5 10.0384L14 19.5984L10 15.5984L4 21.6084L2.5 20.1084ZM4 15.6084L10 9.59842L14 13.5984L22.5 4.03842L21.09 2.62842L14 10.5984L10 6.59842L2.5 14.1084L4 15.6084Z
   subfolderitems:
     - page: FMP Overview and Goals
-      id: project-overview-and-goals
+      id: final-master-project
     - page: Design Process
       id: design-process
     - page: Expertise Areas
-      id: expertise-area-reflections
+      id: development
     - page: PI&V Growth
       id: piv-growth
 - page: Future
