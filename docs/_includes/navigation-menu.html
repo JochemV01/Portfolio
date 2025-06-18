@@ -1,14 +1,15 @@
 <div class="navigation">
     {% if site.data.samplelist.toc2[0] %}
         {% for item in site.data.samplelist.toc2 %}
-        <a class="nav-item{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">
+        {% assign item_path = item.url | replace: 'https://portfolio.jjochem.nl', '' %}
+        <a class="nav-item{% if page.url == item_path %} active{% endif %}" href="{{ item.url }}">
             <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
                 <path d="{{ item.svgpath1 }}"/>
                 <path d="{{ item.svgpath2 }}"/>
             </svg>
             <p class="nav-text">{{ item.page }}</p>
         </a>
-            {% if item.subfolderitems[0] and page.url == item.url %}
+            {% if item.subfolderitems[0] and page.url == item_path %}
                 <div class="nav-group">
                     <div class="nav-subitems">
                         {% for subitem in item.subfolderitems %}
