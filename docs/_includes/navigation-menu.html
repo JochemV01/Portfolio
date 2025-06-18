@@ -5,10 +5,10 @@
             <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
                 <path d="{{ item.svgpath1 }}"/>
                 <path d="{{ item.svgpath2 }}"/>
-              </svg>
-              <p class="nav-text">{{ item.page }}</p>
+            </svg>
+            <p class="nav-text">{{ item.page }}</p>
         </a>
-            {% if item.subfolderitems[0] %}
+            {% if item.subfolderitems[0] and page.url == item.url %}
                 <div class="nav-group">
                     <div class="nav-subitems">
                         {% for subitem in item.subfolderitems %}
