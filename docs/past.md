@@ -21,7 +21,10 @@ I led a group project designing a smart table with AC and temperature-controlled
 
 This experience also showed me that I’m capable of taking on a leadership role when needed, which further defined my Professional Identity.
 
-**Deliverables**: Group report, personal reflection
+**Deliverables**: [Group report](), [personal reflection]()
+
+<video src="{{ site.url }}/assets/images/m1/heating-table-mechanism.mp4" controls="controls">
+</video>
 
 ## Constructive Design Research
 We studied how tech students understand ML using co-design with a smart closet concept. I learned to conduct field research and analyse findings, essential for any design/research project, including my FMP.
@@ -30,7 +33,7 @@ We studied how tech students understand ML using co-design with a smart closet c
 
 This experience nudged my vision on design into a direction of Machine Learning and Artificial Intelligence, which are complex topics that can benefit from designs making it more intuitive to understand.
 
-**Deliverables**: Group paper, individual poster, reflection
+**Deliverables**: [Group paper](), [individual poster](), [reflection]()
 
 ## Design for Behavioural Change
 This course introduced five behaviour change theories, which we applied in a redesign of self-checkout areas to reduce shoplifting. It taught me how design can influence not only individual behaviours but also broader societal outcomes.
@@ -38,7 +41,9 @@ This course introduced five behaviour change theories, which we applied in a red
 - **U&S**: This course highlighted the importance of designing with societal values in mind, helping not just individual users, but supporting social improvements. I believe this is a powerful tool to have in my repertoire as a designer which can be used for a large variety of designs.
 - **B&E**: We carefully considered the reasons why stores use self-checkouts, and redesigned the layout to align with those operational needs while also aiming to reduce theft.
 
-**Deliverable**: Group report
+![Checkout Redesign Render](assets/images/m1/checkout-redesign.png)
+
+**Deliverable**: [Group report]()
 
 ## (M1.2) Research Project: *Curiosity in user guide*
 I independently researched whether trivia questions in user guides trigger curiosity. I learned how to define and scope useful research and design solid user tests, while also learning a valuable lesson about working with external clients. This experience helped me take more control over my collaboration with Signify.
@@ -46,7 +51,9 @@ I independently researched whether trivia questions in user guides trigger curio
 - **C&A**: This was my first exploration into the relationship between curiosity and creativity and how to trigger it, which later influenced my FMP. I realized that this expertise area does not only have to be about my own creativity, but can also be about the user’s creativity, highlighting an interesting connection to U&S.
 - **U&S**: I designed and executed my first full user test, learning to define research questions, select appropriate methods, and conduct pilot tests to improve reliability. These lessons directly informed the user testing in my FMP.
 
-**Deliverables**: Research paper, reflection
+![User Guide Trivia](assets/images/m1/user-guide-trivia.png)
+
+**Deliverables**: [Research paper](), [reflection]()
 
 ## Designerly Perspective on IoT (track course)
 We explored rich interaction, focusing on intuitive design through affordances and feedback [3, 4]. I used greenscreen video editing as both communication and prototyping tools.
@@ -56,7 +63,10 @@ We explored rich interaction, focusing on intuitive design through affordances a
 
 I was familiar with affordances before, but this course sparked how important I find rich interaction in a smart home context. This further refined my identity as well as my vision on design.
 
-**Deliverables**: Group report, video, reflection
+<video src="{{ site.url }}/assets/images/m1/video-effects.mp4" controls="controls">
+</video>
+
+**Deliverables**: [Group report](), [video](), [reflection]()
 
 ## Data-Enabled Design
 We built two probes to measure dishwasher energy use and iterated our design based on real-time data from users' homes, based on data-enabled design principles [5]. I led the technical side, including hardware, programming, and data visualization.
@@ -64,7 +74,9 @@ We built two probes to measure dishwasher energy use and iterated our design bas
 - **T&R**: I assembled and programmed ESP32 and ESP8266-based probes to track dishwasher activity. Integrating them into Data Foundry and deploying them outside of our immediate control introduced me to designing for reliability and automation I did not consider before.
 - **MD&C**: I handled the data visualization by cleaning and analysing the logged energy use with Python. This helped us understand whether our design interventions influenced participant behaviours.
 
-**Deliverables**: Group pictorial, reflection
+![Probe Electronics](assets/images/m1/probe-electronics.png)
+
+**Deliverables**: [Group pictorial](), [reflection]()
 
 ## (M2.1) Preparation FMP: *Creative home automation card set*
 I developed a card set to inspire users to think creatively about smart home automation. I tested it in a workshop setting that turned the experience into a game. It showed that combinational creativity can inspire users to make creative automations, forming the basis of my FMP.
@@ -74,7 +86,9 @@ I developed a card set to inspire users to think creatively about smart home aut
 
 This project confirmed my interest in smart home automation, allowing me to make my identity and vision more specific.
 
-**Deliverables**: Report, reflection
+![Card Set](assets/images/m2/card-set.jpg)
+
+**Deliverables**: [Report](), [reflection]()
 
 ## The Sound of Smart Things
 This course introduced sound as a design material, not only for feedback but also for feedforward. We designed sound interactions for smart environments, including public spaces like the Lucid bar. It made me realize how sound is underused in the smart home domain.
@@ -82,10 +96,13 @@ This course introduced sound as a design material, not only for feedback but als
 - **C&A**: Good sound design can make a design audibly aesthetic, but I believe it can also help improve the aesthetics of the interaction. Sound does not only have to be a means for providing feedback, but it can also be an excellent way of providing feedforward.
 - **MD&C**: Sounds can be surprisingly technical and mathematical. Sound waves are sine waves, the amplitude determines the volume and the frequency determines the pitch. Designing sounds often involves adjusting sine waves. Besides that, programs used for designing and adjusting sounds like Max or Plugdata are visual but highly technical and complex, very much like a visual programming language.
 
-**Deliverables**: Group report, video, reflection
+**Deliverables**: [Group report](), [video](), [reflection]()
 
 ## Bonus: Teacher Assistant at Creative Programming
 As a TA, I helped students with programming questions, graded assignments, and hosted two live coding demos. It improved my presentation skills and gave me a deeper appreciation for teachers.
+
+<video src="{{ site.url }}/assets/images/m2/oop-live-demo.mp4" controls="controls">
+</video>
 
 # References
 - [3]	J.W. Frens. 2006. Designing for rich interaction: integrating form, interaction, and function. Phd Thesis 1 (Research TU/e / Graduation TU/e). Technische Universiteit Eindhoven, Eindhoven. <https://doi.org/10.6100/IR608730>
