@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900">
+    <!-- <link rel="stylesheet" href="/assets/css/test.css"> -->
+    <style>
+      :root {
+          --background: #232227;
+          --text: #FFF;
+          --primary: #E26914;
+          --secondary: #FFA96C;
+          --secondary-50: rgba(255, 169, 108, 0.50);
+          --accent: #13004B;
+          --accent-2: #835BFB;
+          --accent-50: rgba(19, 0, 75, 0.50);
+      }
+      * {
+          box-sizing: border-box;
+      }
+      [class*="col-"] {
+          float: left;
+          padding: 0.625rem;
+          /* border: 1px solid red; */
+
+          /* For Mobile Phones: */
+          width: 100%;
+      }
+      .row::after {
+          content: "";
+          clear: both;
+          display: table;
+      }
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: Montserrat, sans-serif;
+          background-color: var(--background, #232227);
+          color: var(--text, #FFF);
+      }
+      /* For Tablet: */
+      @media only screen and (min-width: 750px) {
+          .col-s-1 {width: 8.33%;}
+          .col-s-2 {width: 16.66%;}
+          .col-s-3 {width: 25%;}
+          .col-s-4 {width: 33.33%;}
+          .col-s-5 {width: 41.66%;}
+          .col-s-6 {width: 50%;}
+          .col-s-7 {width: 58.33%;}
+          .col-s-8 {width: 66.66%;}
+          .col-s-9 {width: 75%;}
+          .col-s-10 {width: 83.33%;}
+          .col-s-11 {width: 91.66%;}
+          .col-s-12 {width: 100%;}
+      }
+      /* For Smaller Screen: */
+      @media only screen and (min-width: 970px) {
+          .col-m-1 {width: 8.33%;}
+          .col-m-2 {width: 16.66%;}
+          .col-m-3 {width: 25%;}
+          .col-m-4 {width: 33.33%;}
+          .col-m-5 {width: 41.66%;}
+          .col-m-6 {width: 50%;}
+          .col-m-7 {width: 58.33%;}
+          .col-m-8 {width: 66.66%;}
+          .col-m-9 {width: 75%;}
+          .col-m-10 {width: 83.33%;}
+          .col-m-11 {width: 91.66%;}
+          .col-m-12 {width: 100%;}
+      }
+      /* For Desktop: */
+      @media only screen and (min-width: 1200px) {
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+      }
+
+      .site-info .email {
+          align-self: stretch;
+
+          color: var(--secondary, #FFA96C);
+
+          /* Paragraph */
+          font-family: Montserrat;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+          text-decoration-skip-ink: none;
+          text-decoration-thickness: auto;
+          text-underline-offset: auto;
+          text-underline-position: from-font;
+      }
+      .site-info p {
+          margin: auto;
+
+          color: var(--text, #FFF);
+
+          font-family: Montserrat;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+      }
+      .sidebar {
+          display: flex;
+          padding: 0.625rem;
+          flex-direction: column;
+          gap: 0.625rem;
+          flex-shrink: 0;
+          align-self: stretch;
+          margin: 0;
+      }
+      .site-info {
+          display: flex;
+          flex-direction: column;
+          gap: 0.625rem;
+      }
+      .site-info img {
+        width: 11rem;
+        height: 11rem;
+        object-fit: cover;
+        border-radius: 20rem;
+      }
+      .logo {
+          width: 7.10881rem;
+          height: 6.674rem;
+
+          stroke-width: 8px;
+          stroke: var(--accent-2, #835BFB);
+      }
+      .site-title, .site-info a {
+          align-self: stretch;
+          margin: 0;
+
+          color: var(--secondary, #FFA96C);
+          text-align: center;
+          
+          font-family: Rowdies;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration: none;
+      }
+      .site-subtitle, .site-info a {
+          align-self: stretch;
+          margin: 0;
+
+          color: var(--text, #FFF);
+          text-align: center;
+          
+          font-family: Montserrat;
+          font-size: 1.25rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-decoration: none;
+      }
+      p a {
+          color: var(--secondary, #FFA96C);
+      }
+      p {
+          align-self: stretch;
+          margin: 0;
+
+          /* color: var(--text, #0C0703); */
+
+          /* Alinea */
+          /* font-family: Montserrat;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; */
+      }
+      .navigation {
+          display: flex;
+          padding: 0.625rem;
+          flex-direction: column;
+          align-items: flex-start;
+          align-self: stretch;
+          /* gap: 0rem; */
+
+          background: var(--accent-50, rgba(19, 0, 75, 0.50));
+      }
+      .nav-group {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          align-self: stretch;
+      }
+      .nav-item.active {
+          background: var(--secondary, #FFA96C);
+      }
+      .nav-item.active .nav-icon {
+          fill: var(--accent, #13004B);
+      }
+      .nav-item.active .nav-text {
+          color: var(--accent, #13004B);
+          font-weight: 600;
+      }
+      .nav-item {
+          display: flex;
+          padding: 0.3125rem;
+          align-items: center;
+          gap: 0.3125rem;
+          align-self: stretch;
+
+          text-decoration: none;
+      }
+      .nav-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+          flex-shrink: 0;
+
+          fill: var(--primary, #E26914);;
+      }
+      .nav-text {
+          /* flex: 1 0 0; */
+
+          color: var(--text, #FFF);
+
+          /* Navigation/Item/Default */
+          font-family: Montserrat;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: -0.01rem;
+          margin: 0;
+          display: flex;
+          align-items: center;
+      }
+      .nav-subitems {
+          display: flex;
+          padding-left: 3.125rem;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          align-self: stretch;
+      }
+      .nav-subitem.active {
+          background: var(--secondary, #FFA96C);
+      }
+      .nav-subitem.active .nav-subitem-text {
+          color: var(--accent, #13004B);
+          font-weight: 600;
+      }
+      .nav-subitem {
+          display: flex;
+          padding: 0.3125rem 0.625rem;
+          align-items: center;
+          gap: 0.3125rem;
+          align-self: stretch;
+
+          text-decoration: none;
+      }
+      .nav-subitem-text {
+          /* flex: 1 0 0; */
+
+          color: var(--text, #FFF);
+
+          /* Navigation/Subitem/Default */
+          font-family: Montserrat;
+          font-size: 0.9375rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: -0.00938rem;
+          margin: 0;
+          display: flex;
+          align-items: center;
+      }
+      .navigation a:hover {
+          background-color: var(--secondary-50, #FFA96C);
+          /* text-decoration: underline;
+          text-decoration-color: var(--text, #FFF); */
+      }
+
+      @media only screen and (max-width: 750px) {
+          .footer-in-sidebar {
+              display: none;
+          }
+          .sidebar-top {
+              display: flex;
+              flex-direction: row;
+              gap: 0.625rem;
+          }
+          .sticky {
+            padding: 0;
+            width: inherit;
+          }
+      }
+      @media only screen and (min-width: 750px) {
+          .footer-bottom {
+              display: none;
+          }
+          .sticky {
+              position: fixed;
+              top: 0;
+              padding-left: 0;
+              width: inherit;
+              max-width: 400px;
+            }
+            .content {
+              padding: 0.625rem;
+              padding-left: 1rem;
+            }
+      }
+      .links {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          align-self: stretch;
+      }
+      .link {
+          width: 1.875rem;
+          height: 1.875rem;
+
+          fill: var(--secondary-50, rgba(255, 169, 108, 0.50));
+          stroke: var(--secondary-50, rgba(255, 169, 108, 0.50));
+          stroke-width: 1px;
+      }
+      .link .box {
+          fill: none;
+      }
+      .link:hover {
+          fill: var(--background, #232227);
+          stroke: var(--background, #232227);
+      }
+      .link:hover .box {
+          fill: var(--secondary-50, rgba(255, 169, 108, 0.50));;
+      }
+
+      .title {
+          display: flex;
+          /* padding-top: 0.625rem; */
+          /* padding-bottom: 0.625rem; */
+          align-items: flex-start;
+          gap: 0.625rem;
+          align-self: stretch;
+          position: sticky;
+          top: 0;
+          z-index: 5;
+
+          background: var(--background, #ECEAEA);
+        }
+      .page-title {
+          display: flex;
+          padding: 0.625rem;
+          align-items: flex-start;
+          gap: 0.625rem;
+          align-self: stretch;
+          flex: 1 0 0;
+          margin: 0;
+
+          background: var(--secondary, #FFA96C);
+          color: var(--accent, #13004B);
+
+          /* Title */
+          font-family: Rowdies;
+          font-size: 3rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+      }
+      .scroll {
+          display: flex;
+          padding: 0.625rem;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.625rem;
+          flex: 1 0 0;
+          align-self: stretch;
+      }
+      h1, h1 a {
+          color: var(--primary, #E26914);
+          margin: 0;
+
+          /* Header 1 */
+          font-family: Rowdies;
+          font-size: 2.5rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+      }
+      h2, h2 a {
+          color: var(--secondary, #FFA96C);
+          margin: 0;
+
+          /* Header 2 */
+          font-family: Rowdies;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+      }
+      h3, h3 a {
+          color: var(--accent-2, #835BFB);
+          margin: 0;
+
+          /* Header 3 */
+          font-family: Rowdies;
+          font-size: 1.5rem;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+      }
+      img {
+          margin: auto;
+          max-width: 100%;
+          height: auto;
+          max-height: 600px;
+          width: auto;
+      }
+      video {
+          margin: auto;
+          max-width: 100%;
+          height: auto;
+          max-height: 600px;
+          width: auto;
+      }
+      .iframe-video {
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          padding-top: 56.25%; /* 16:9 aspect ratio */
+      }
+      .iframe-video iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+      }
+      .coverimage {
+          display: block;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      .sidebar.sticky {
+        max-height: 100vh;
+        overflow-y: auto;
+      }
+
+      /* Hide less important elements if the viewport is short */
+      @media (max-height: 700px) {
+        .sidebar .footer-in-sidebar {
+          display: none;
+        }
+      }
+      @media (max-height: 550px) {
+        .sidebar .site-info img {
+          display: none;
+        }
+      }
+      @media (max-height: 400px) {
+        .sidebar .site-info p {
+          display: none;
+        }
+      }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper row">
+      <header class="sidebar col-3 col-m-3 col-s-4">
+        <div class="sticky sidebar">
+          <div class="sidebar-top">
+            <!-- <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="126" height="118" viewBox="0 0 126 118" fill="none">
+              <path d="M4.71313 13.3822C5.56505 13.0846 11.2098 7.39843 12.7822 7.39843C14.9124 7.39843 22.0129 10.7488 28.1678 10.7488C34.8952 10.7488 43.2292 3.33732 44.0325 4.04803C44.8358 4.75874 49.2498 22.2796 50.5854 29.6814C52.543 40.5306 54.9901 53.0734 55.8219 62.3234M55.8219 62.3234C59.093 64.5778 64.5796 72.6477 67.1654 78.3302C69.9405 84.4286 77.7443 100.347 81.2343 107.833C84.5677 114.982 91.9486 113.552 94.3295 107.833C96.588 102.407 99.9506 56.7807 103.352 58.5699C110.487 62.3234 117.26 62.3234 121.287 59.6897M55.8219 62.3234C56.6537 71.5733 56.683 82.4318 54.7656 91.3107C52.8481 100.189 48.4641 109.547 42.5899 112.016C37.656 114.09 28.8017 114.209 23.7197 110.318C18.6377 106.428 15.0752 96.6396 15.9942 85.5968C16.9132 74.554 22.1859 64.0933 31.2037 60.5832C42.905 56.0286 50.7344 58.8171 55.8219 62.3234Z" stroke="#607E97" stroke-width="8" stroke-linecap="round"/>
+            </svg> -->
+
+            <div class="site-info">
+              <img src="assets/images/personal-image.png">
+              <a href="jjochem.nl"><h1 class="site-title">Jochem Verstegen</h1></a>
+              <a href="portfolio.jjochem.nl"><h2 class="site-subtitle">Portfolio.</h2></a>
+              <p><a class="email" href="mailto:hello@jjochem.nl">hello@jjochem.nl</a></p>
+              <p>Welcome to my portfolio! The purpose of this portfolio is to allow assessors to assess my development during my Master's at Industrial design, and especially during my FMP.</p>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <a class="nav-item" href="https://jjochem.nl/test">
+                <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+                    <path d="M12.5 6.30835L17.5 10.8083V18.6183H15.5V12.6183H9.5V18.6183H7.5V10.8083L12.5 6.30835ZM12.5 3.61835L2.5 12.6183H5.5V20.6183H11.5V14.6183H13.5V20.6183H19.5V12.6183H22.5L12.5 3.61835Z"/>
+                    <!-- d="{{ item.svgpath2 }}" fill="#2B74AE"/-->
+                  </svg>
+                  <p class="nav-text">Nagivation page</p>
+            </a>
+            <a class="nav-item active" href="http://127.0.0.1:5500/docs/test-layout.html">
+                <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M17.815 4.47C17.735 4.47 17.655 4.45 17.585 4.41C15.665 3.42 14.005 3 12.015 3C10.035 3 8.15499 3.47 6.44499 4.41C6.20499 4.54 5.90499 4.45 5.76499 4.21C5.63499 3.97 5.72499 3.66 5.96499 3.53C7.82499 2.52 9.86499 2 12.015 2C14.145 2 16.005 2.47 18.045 3.52C18.295 3.65 18.385 3.95 18.255 4.19C18.165 4.37 17.995 4.47 17.815 4.47ZM3.50499 9.72C3.40499 9.72 3.30499 9.69 3.21499 9.63C2.98499 9.47 2.93499 9.16 3.09499 8.93C4.08499 7.53 5.34499 6.43 6.84499 5.66C9.98499 4.04 14.005 4.03 17.155 5.65C18.655 6.42 19.915 7.51 20.905 8.9C21.065 9.12 21.015 9.44 20.785 9.6C20.555 9.76 20.245 9.71 20.085 9.48C19.185 8.22 18.045 7.23 16.695 6.54C13.825 5.07 10.155 5.07 7.29499 6.55C5.93499 7.25 4.79499 8.25 3.89499 9.51C3.81499 9.65 3.66499 9.72 3.50499 9.72ZM9.75499 21.79C9.62499 21.79 9.49499 21.74 9.40499 21.64C8.53499 20.77 8.06499 20.21 7.39499 19C6.70499 17.77 6.34499 16.27 6.34499 14.66C6.34499 11.69 8.88499 9.27 12.005 9.27C15.125 9.27 17.665 11.69 17.665 14.66C17.665 14.94 17.445 15.16 17.165 15.16C16.885 15.16 16.665 14.94 16.665 14.66C16.665 12.24 14.575 10.27 12.005 10.27C9.43499 10.27 7.34499 12.24 7.34499 14.66C7.34499 16.1 7.66499 17.43 8.27499 18.51C8.91499 19.66 9.35499 20.15 10.125 20.93C10.315 21.13 10.315 21.44 10.125 21.64C10.015 21.74 9.88499 21.79 9.75499 21.79ZM16.925 19.94C15.735 19.94 14.685 19.64 13.825 19.05C12.335 18.04 11.445 16.4 11.445 14.66C11.445 14.38 11.665 14.16 11.945 14.16C12.225 14.16 12.445 14.38 12.445 14.66C12.445 16.07 13.165 17.4 14.385 18.22C15.095 18.7 15.925 18.93 16.925 18.93C17.165 18.93 17.565 18.9 17.965 18.83C18.235 18.78 18.495 18.96 18.545 19.24C18.595 19.51 18.415 19.77 18.135 19.82C17.565 19.93 17.065 19.94 16.925 19.94ZM14.915 22C14.875 22 14.825 21.99 14.785 21.98C13.195 21.54 12.155 20.95 11.065 19.88C9.66499 18.49 8.89499 16.64 8.89499 14.66C8.89499 13.04 10.275 11.72 11.975 11.72C13.675 11.72 15.055 13.04 15.055 14.66C15.055 15.73 15.985 16.6 17.135 16.6C18.285 16.6 19.215 15.73 19.215 14.66C19.215 10.89 15.965 7.83 11.965 7.83C9.12499 7.83 6.52499 9.41 5.35499 11.86C4.96499 12.67 4.76499 13.62 4.76499 14.66C4.76499 15.44 4.83499 16.67 5.43499 18.27C5.53499 18.53 5.40499 18.82 5.14499 18.91C4.88499 19.01 4.59499 18.87 4.50499 18.62C4.01499 17.31 3.77499 16.01 3.77499 14.66C3.77499 13.46 4.00499 12.37 4.45499 11.42C5.78499 8.63 8.73499 6.82 11.965 6.82C16.515 6.82 20.215 10.33 20.215 14.65C20.215 16.27 18.835 17.59 17.135 17.59C15.435 17.59 14.055 16.27 14.055 14.65C14.055 13.58 13.125 12.71 11.975 12.71C10.825 12.71 9.89499 13.58 9.89499 14.65C9.89499 16.36 10.555 17.96 11.765 19.16C12.715 20.1 13.625 20.62 15.035 21.01C15.305 21.08 15.455 21.36 15.385 21.62C15.335 21.85 15.125 22 14.915 22Z"/>
+                </svg>
+                <p class="nav-text">Professional Identity & Vision</p>
+            </a>
+              <div class="nav-group">
+                <div class="nav-subitems">
+                  <a class="nav-subitem" href="http://127.0.0.1:5500/docs/test-layout.html#professional-identity">
+                      <p class="nav-subitem-text">Professional Identity</p>
+                  </a>
+                  <a class="nav-subitem" href="http://127.0.0.1:5500/docs/test-layout.html#strengths">
+                      <p class="nav-subitem-text">Strengths</p>
+                  </a>
+                  <a class="nav-subitem" href="http://127.0.0.1:5500/docs/test-layout.html#design-process">
+                      <p class="nav-subitem-text">Design process</p>
+                  </a>
+                  <a class="nav-subitem" href="http://127.0.0.1:5500/docs/test-layout.html#vision">
+                      <p class="nav-subitem-text">Vision</p>
+                  </a>
+                </div>
+              </div>
+          </div>
+
+          <footer class="footer-in-sidebar">
+            <p style="display: flex; justify-content: center;">Follow me, or reach out!</p>
+
+            <div class="links">
+              <a href="https://linkedin.com">
+                <svg class="link" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <rect class="box" x="0.5" y="0.5" width="29" height="29" rx="4.5"/>
+                  <path d="M9.72579 11.4376H5.76359C5.58774 11.4376 5.44525 11.5802 5.44525 11.756V24.4848C5.44525 24.6607 5.58774 24.8032 5.76359 24.8032H9.72579C9.90164 24.8032 10.0441 24.6607 10.0441 24.4848V11.756C10.0441 11.5802 9.90164 11.4376 9.72579 11.4376Z" stroke="none"/>
+                  <path d="M7.74615 5.10986C6.30447 5.10986 5.13159 6.28147 5.13159 7.72156C5.13159 9.16228 6.30447 10.3343 7.74615 10.3343C9.18669 10.3343 10.3586 9.16222 10.3586 7.72156C10.3587 6.28147 9.18669 5.10986 7.74615 5.10986Z" stroke="none"/>
+                  <path d="M19.804 11.1213C18.2126 11.1213 17.0362 11.8054 16.3227 12.5828V11.756C16.3227 11.5803 16.1802 11.4377 16.0044 11.4377H12.2099C12.034 11.4377 11.8915 11.5803 11.8915 11.756V24.4849C11.8915 24.6607 12.034 24.8032 12.2099 24.8032H16.1634C16.3393 24.8032 16.4818 24.6607 16.4818 24.4849V18.1871C16.4818 16.0648 17.0582 15.2381 18.5376 15.2381C20.1487 15.2381 20.2768 16.5635 20.2768 18.2963V24.485C20.2768 24.6608 20.4193 24.8033 20.5951 24.8033H24.5501C24.726 24.8033 24.8685 24.6608 24.8685 24.485V17.503C24.8685 14.3473 24.2667 11.1213 19.804 11.1213Z" stroke="none"/>
+                </svg>
+              </a>
+      
+              <a href="https://linkedin.com">
+                <svg class="link" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <rect class="box" x="0.5" y="0.5" width="29" height="29" rx="4.5"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8358 17.5674V11.5295C14.9792 12.5381 16.6393 13.5124 18.6027 14.5629C16.9833 15.461 14.9792 16.4686 12.8358 17.5674ZM24.7811 8.52665C24.4114 8.03952 23.7812 7.66033 23.1103 7.53479C21.1384 7.16032 8.83611 7.15926 6.86522 7.53479C6.32722 7.63565 5.84814 7.87943 5.4366 8.2582C3.70256 9.86765 4.24593 18.4986 4.6639 19.8967C4.83966 20.5019 5.06687 20.9383 5.35302 21.2248C5.72169 21.6036 6.22646 21.8644 6.80626 21.9813C8.42992 22.3172 16.7947 22.5049 23.076 22.0318C23.6548 21.9309 24.167 21.6617 24.5711 21.2668C26.1744 19.6638 26.0651 10.5481 24.7811 8.52665Z" stroke="none"/>
+                </svg>
+              </a>
+      
+              <a href="https://linkedin.com">
+                <svg class="link" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <rect class="box" x="0.5" y="0.5" width="29" height="29" rx="4.5"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15 4.41821C20.722 4.41821 25.3603 9.17352 25.3603 15.0406C25.3603 19.7327 22.3951 23.7132 18.2811 25.1191C17.7558 25.2237 17.5693 24.892 17.5693 24.6092C17.5693 24.259 17.5817 23.1153 17.5817 21.6938C17.5817 20.7034 17.2502 20.0569 16.8783 19.7275C19.1855 19.4643 21.6098 18.566 21.6098 14.4861C21.6098 13.3258 21.2079 12.3789 20.5427 11.635C20.6505 11.3667 21.0058 10.2862 20.4412 8.82337C20.4412 8.82337 19.573 8.53874 17.5952 9.91251C16.7674 9.67734 15.8806 9.55901 15 9.55486C14.1193 9.55901 13.2335 9.67734 12.4068 9.91251C10.4269 8.53874 9.55665 8.82337 9.55665 8.82337C8.99409 10.2862 9.34945 11.3667 9.45616 11.635C8.79413 12.3789 8.38905 13.3258 8.38905 14.4861C8.38905 18.5557 10.8082 19.4678 13.1092 19.7361C12.8129 20.0013 12.5446 20.4692 12.4513 21.1561C11.8608 21.4275 10.3606 21.8973 9.43647 20.2738C9.43647 20.2738 8.88841 19.2532 7.84824 19.1786C7.84824 19.1786 6.83811 19.1652 7.77779 19.8241C7.77779 19.8241 8.45639 20.1505 8.92778 21.3782C8.92778 21.3782 9.53593 23.2741 12.4182 22.6317C12.4234 23.5196 12.4327 24.3564 12.4327 24.6092C12.4327 24.8899 12.242 25.2185 11.7251 25.1201C7.60787 23.7163 4.63965 19.7338 4.63965 15.0406C4.63965 9.17352 9.279 4.41821 15 4.41821Z" stroke="none"/>
+                </svg>
+              </a>
+  
+              <a href="https://linkedin.com">
+                <svg class="link" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <rect class="box" x="0.5" y="0.5" width="29" height="29" rx="4.5"/>
+                  <path d="M7.66052 10.4129L13.3486 14.6789C14.3272 15.4128 15.6727 15.4128 16.6513 14.6789L22.3394 10.4128" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                  <path d="M21.4221 8.578H8.57803C7.56466 8.578 6.74316 9.3995 6.74316 10.4129V19.5872C6.74316 20.6005 7.56466 21.422 8.57803 21.422H21.4221C22.4354 21.422 23.2569 20.6005 23.2569 19.5872V10.4129C23.2569 9.3995 22.4354 8.578 21.4221 8.578Z" fill="none" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </a>
+  
+              <a href="https://linkedin.com">
+                <svg class="link" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <rect class="box" x="0.5" y="0.5" width="29" height="29" rx="4.5"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3688 19.4891H15.1676V12.3555H17.2969C19.9922 12.3555 21.223 13.9906 21.223 15.9223C21.223 17.1082 20.5043 19.4891 17.3688 19.4891Z" stroke="none"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M27 15.5C27 21.852 21.852 27 15.5 27C9.14805 27 4 21.852 4 15.5C4 9.14805 9.14805 4 15.5 4C21.852 4 27 9.14805 27 15.5ZM10.3699 20.7289H11.7535V11.1066H10.3699V20.7289ZM17.5215 11.1066H13.784V20.7379H17.5395C20.7109 20.7379 22.6426 18.393 22.6426 15.9223C22.6426 13.6492 21.0793 11.1066 17.5215 11.1066ZM11.0617 10.0105C11.5648 10.0105 11.9691 9.59727 11.9691 9.10312C11.9691 8.60898 11.5648 8.1957 11.0617 8.1957C10.5586 8.1957 10.1543 8.6 10.1543 9.10312C10.1543 9.59727 10.5586 10.0105 11.0617 10.0105Z" stroke="none"/>
+                </svg>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </header>
+
+      <section>
+        <div class="content col-6 col-m-9 col-s-8">
+          <div class="title">
+            <h1 class="page-title">Professional Identity and Vision</h1>
+          </div>
+
+          <div class="scroll">
+            <h1 id="professional-identity">Professional Identity</h1>
+            <p>
+              As a designer and person, I enjoy smart, clever products. After exploring designing various types of smart and connected systems, my work now revolves around IoT and smart home technologies. I feel satisfaction when designing valuable interactions and experiences for the smart home. I love staying up-to-date with tech and using design to bring its value into homes. RDD was the natural track for me.
+            </p>
+            <h2 id="strengths">Strengths</h2>
+            <p>
+              I’m organized, which helps team communication and is often appreciated by teammates. While often quietly observing and supporting, I can lead when needed, especially in areas aligned with my strengths. When leading, I prioritize inclusion and clear communication.
+            </p>
+            <p>
+              My core strength lies in prototyping. Before Industrial Design, I was already skilled in making things (woodworking, sewing, smithing) which expanded during my studies to include mechanisms, electronics, 3D printing, and programming. I’m confident in making both physical and digital prototypes.
+            </p>
+            <p>
+              I also bring deep knowledge of smart and connected products, gained through years of interest. I’m quick to learn and adapt new tools and techniques, making me a versatile and flexible designer.
+            </p>
+            <h3 id="design-process">Design Process</h3>
+            <p>
+              I value non-linear, iterative processes like design thinking [2]. Inspiration grows with subject familiarity, prototyping and testing lead to new ideas. An iterative approach offers structure with creative flexibility, enabling user involvement and better design.
+            </p>
+            <h2 id="vision">Vision</h2>
+            <p>
+              Human-computer interaction is evolving as computers and systems gain more functions. We moved from Command-Line Interfaces (CLIs) to Graphical User Interfaces (GUIs) [12], and now toward Conversational User Interfaces (CUIs) [1, 10]: Using natural language via AI for complex tasks. CUIs can empower users to do more, especially in complex systems like smart homes. Besides clear advantages AI systems can deliver, it will always remain important to beware of their risks when it comes to privacy, ethics, and sustainability.
+            </p>
+            <p>
+              When products are connected to the Internet of Things (IoT), they gain new emergent functionalities that come with being part of a system. They can be controlled remotely, automated, and personalized. Designers should make these emergent functionalities easier to understand and use, bringing the values of IoT systems to more people. That’s my focus when designing.
+            </p>
+            <p>
+              Intuitive IoT systems benefit from rich/aesthetic interactions. These use affordances to provide natural feedforward and feedback, without needing textual labels [4, 7]. Designing rich interactions benefits from exploratory and iterative design processes, which provide a lot of room for creativity while ensuring user involvement at multiple points during the design process. Even if they don’t end up in final products, they inspire user-friendly design ideas.
+            </p>
+            <p>
+              As technology evolves, designers must ensure usability and deliver the needed level of intuitiveness. I believe my skills, flexibility, and eagerness to learn make me ready for that challenge. As technology evolves, my vision on design will evolve with it as well.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-bottom col-3 col-m-12 col-s-12">
+        <p style="display: flex; justify-content: center;">This project is maintained by Jochem</p>
+  
+        <div class="links">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" stroke="#FFA96C" stroke-opacity="0.5"/>
+            <path d="M9.72579 11.4376H5.76359C5.58774 11.4376 5.44525 11.5802 5.44525 11.756V24.4848C5.44525 24.6607 5.58774 24.8032 5.76359 24.8032H9.72579C9.90164 24.8032 10.0441 24.6607 10.0441 24.4848V11.756C10.0441 11.5802 9.90164 11.4376 9.72579 11.4376Z" fill="#FFA96C" fill-opacity="0.5"/>
+            <path d="M7.74615 5.10986C6.30447 5.10986 5.13159 6.28147 5.13159 7.72156C5.13159 9.16228 6.30447 10.3343 7.74615 10.3343C9.18669 10.3343 10.3586 9.16222 10.3586 7.72156C10.3587 6.28147 9.18669 5.10986 7.74615 5.10986Z" fill="#FFA96C" fill-opacity="0.5"/>
+            <path d="M19.804 11.1213C18.2126 11.1213 17.0362 11.8054 16.3227 12.5828V11.756C16.3227 11.5803 16.1802 11.4377 16.0044 11.4377H12.2099C12.034 11.4377 11.8915 11.5803 11.8915 11.756V24.4849C11.8915 24.6607 12.034 24.8032 12.2099 24.8032H16.1634C16.3393 24.8032 16.4818 24.6607 16.4818 24.4849V18.1871C16.4818 16.0648 17.0582 15.2381 18.5376 15.2381C20.1487 15.2381 20.2768 16.5635 20.2768 18.2963V24.485C20.2768 24.6608 20.4193 24.8033 20.5951 24.8033H24.5501C24.726 24.8033 24.8685 24.6608 24.8685 24.485V17.503C24.8685 14.3473 24.2667 11.1213 19.804 11.1213Z" fill="#FFA96C" fill-opacity="0.5"/>
+          </svg>
+  
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" stroke="#FFA96C" stroke-opacity="0.5"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8358 17.5674V11.5295C14.9792 12.5381 16.6393 13.5124 18.6027 14.5629C16.9833 15.461 14.9792 16.4686 12.8358 17.5674ZM24.7811 8.52665C24.4114 8.03952 23.7812 7.66033 23.1103 7.53479C21.1384 7.16032 8.83611 7.15926 6.86522 7.53479C6.32722 7.63565 5.84814 7.87943 5.4366 8.2582C3.70256 9.86765 4.24593 18.4986 4.6639 19.8967C4.83966 20.5019 5.06687 20.9383 5.35302 21.2248C5.72169 21.6036 6.22646 21.8644 6.80626 21.9813C8.42992 22.3172 16.7947 22.5049 23.076 22.0318C23.6548 21.9309 24.167 21.6617 24.5711 21.2668C26.1744 19.6638 26.0651 10.5481 24.7811 8.52665Z" fill="#FFA96C" fill-opacity="0.5"/>
+          </svg>
+  
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" stroke="#FFA96C" stroke-opacity="0.5"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M15 4.41821C20.722 4.41821 25.3603 9.17352 25.3603 15.0406C25.3603 19.7327 22.3951 23.7132 18.2811 25.1191C17.7558 25.2237 17.5693 24.892 17.5693 24.6092C17.5693 24.259 17.5817 23.1153 17.5817 21.6938C17.5817 20.7034 17.2502 20.0569 16.8783 19.7275C19.1855 19.4643 21.6098 18.566 21.6098 14.4861C21.6098 13.3258 21.2079 12.3789 20.5427 11.635C20.6505 11.3667 21.0058 10.2862 20.4412 8.82337C20.4412 8.82337 19.573 8.53874 17.5952 9.91251C16.7674 9.67734 15.8806 9.55901 15 9.55486C14.1193 9.55901 13.2335 9.67734 12.4068 9.91251C10.4269 8.53874 9.55665 8.82337 9.55665 8.82337C8.99409 10.2862 9.34945 11.3667 9.45616 11.635C8.79413 12.3789 8.38905 13.3258 8.38905 14.4861C8.38905 18.5557 10.8082 19.4678 13.1092 19.7361C12.8129 20.0013 12.5446 20.4692 12.4513 21.1561C11.8608 21.4275 10.3606 21.8973 9.43647 20.2738C9.43647 20.2738 8.88841 19.2532 7.84824 19.1786C7.84824 19.1786 6.83811 19.1652 7.77779 19.8241C7.77779 19.8241 8.45639 20.1505 8.92778 21.3782C8.92778 21.3782 9.53593 23.2741 12.4182 22.6317C12.4234 23.5196 12.4327 24.3564 12.4327 24.6092C12.4327 24.8899 12.242 25.2185 11.7251 25.1201C7.60787 23.7163 4.63965 19.7338 4.63965 15.0406C4.63965 9.17352 9.279 4.41821 15 4.41821Z" fill="#FFA96C" fill-opacity="0.5"/>
+          </svg>
+  
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" stroke="#FFA96C" stroke-opacity="0.5"/>
+            <path d="M7.66052 10.4129L13.3486 14.6789C14.3272 15.4128 15.6727 15.4128 16.6513 14.6789L22.3394 10.4128" stroke="#FFA96C" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21.4221 8.578H8.57803C7.56466 8.578 6.74316 9.3995 6.74316 10.4129V19.5872C6.74316 20.6005 7.56466 21.422 8.57803 21.422H21.4221C22.4354 21.422 23.2569 20.6005 23.2569 19.5872V10.4129C23.2569 9.3995 22.4354 8.578 21.4221 8.578Z" stroke="#FFA96C" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </footer>
+    </div>
+    <script src="/docs/assets/js/active-section.js"></script>
+    <script src="/docs/assets/js/scroll-offset.js"></script>
+  </body>
+</html>

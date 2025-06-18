@@ -1,0 +1,12 @@
+<p style="display: flex; justify-content: center;">{{ site.social_text }}</p>
+
+<div class="links">
+    {% for item in site.social_links %}
+        <a href="{{ item.url }}">
+            <svg class="link" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <rect class="box" x="0.5" y="0.5" width="29" height="29" rx="4.5"/>
+                {{ item.svgpath }}
+            </svg>
+        </a>
+    {% endfor %}
+</div>

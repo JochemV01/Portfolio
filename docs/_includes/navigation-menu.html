@@ -1,10 +1,10 @@
 <div class="navigation">
     {% if site.data.samplelist.toc2[0] %}
         {% for item in site.data.samplelist.toc2 %}
-        <a class="nav-item" href="{{ item.url }}">
-            <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                <path d="{{ item.svgpath1 }}" fill="#2B74AE"/>
-                <path d="{{ item.svgpath2 }}" fill="#2B74AE"/>
+        <a class="nav-item{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">
+            <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+                <path d="{{ item.svgpath1 }}"/>
+                <path d="{{ item.svgpath2 }}"/>
               </svg>
               <p class="nav-text">{{ item.page }}</p>
         </a>
@@ -12,7 +12,7 @@
                 <div class="nav-group">
                     <div class="nav-subitems">
                         {% for subitem in item.subfolderitems %}
-                            <a class="nav-subitem" href="{{ subitem.url }}">
+                            <a class="nav-subitem{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}#{{ subitem.id }}">
                                 <p class="nav-subitem-text">{{ subitem.page }}</p>
                             </a>
                         {% endfor %}
