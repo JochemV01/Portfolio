@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Present (FMP and Development)"
+title: "Present"
 permalink: /present
 ---
 
@@ -13,7 +13,7 @@ My FMP extended the card set from the Preparation FMP, exploring how generative 
 
 My personal goals included learning about generative AI, following a more creative design process, understanding smart home users, gaining insight into large-company operations and business requirements, and improving my object-oriented programming (OOP) skills.
 
-## Design & Research Processes
+## Design Process
 I used the 5-stage design thinking process *(Empathize, Define, Ideate, Prototype, Test)* in a non-linear, iterative way [2]. I value the non-linear nature of this process, because prototyping can spark new ideas, while tests can also trigger new ideas, reveal insights that redefine the problem, or help learn more about users. The process of my FMP is approximated below, while in reality at some points multiple stages happened simultaneously. My Preparation FMP is not included here, but also one full cycle through the process.
 
 1. **Empathize**: Literature review on user needs
