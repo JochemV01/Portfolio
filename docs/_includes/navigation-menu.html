@@ -12,7 +12,7 @@
                 <div class="nav-group">
                     <div class="nav-subitems">
                         {% for subitem in item.subfolderitems %}
-                            <a class="nav-subitem{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}#{{ subitem.id }}">
+                            <a class="nav-subitem" href="{{ item.url }}#{{ subitem.id }}">
                                 <p class="nav-subitem-text">{{ subitem.page }}</p>
                             </a>
                         {% endfor %}
