@@ -40,7 +40,8 @@ Working at Signify was an enriching experience. Regular presentations improved m
 My work held value for Signify, evidenced by the custom internship position they created for me and shared interest in the project:
 > “Our collaboration explores how AI can enhance lighting automation experiences… aligning with Signify’s ambition to enrich user engagement in smart lighting solutions.”
 > 
-> — Laura Taylor, Head of Design Exploration at Signify
+> 
+> - **Laura Taylor**, Head of Design Exploration at Signify
 
 # Development
 
