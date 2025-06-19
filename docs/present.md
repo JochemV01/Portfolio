@@ -41,7 +41,7 @@ My work held value for Signify, evidenced by the custom internship position they
 > “Our collaboration explores how AI can enhance lighting automation experiences… aligning with Signify’s ambition to enrich user engagement in smart lighting solutions.”
 > 
 > 
-> - **Laura Taylor**, Head of Design Exploration at Signify
+> ~ **Laura Taylor**, Head of Design Exploration at Signify
 
 # Development
 

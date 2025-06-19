@@ -21,7 +21,7 @@ I led a group project designing a smart table with AC and temperature-controlled
 
 This experience also showed me that I’m capable of taking on a leadership role when needed, which further defined my Professional Identity.
 
-**Deliverables**: [Group report](), [personal reflection]()
+**Deliverables**: [Group report]({{ site.url }}/assets/download/fmp/M11-Design-Project-Report.pdf), [personal reflection]({{ site.url }}/assets/download/fmp/M11-Design-Project-Reflection.pdf)
 
 <video src="{{ site.url }}/assets/images/m1/heating-table-mechanism.mp4" controls="controls">
 </video>
@@ -33,7 +33,7 @@ We studied how tech students understand ML using co-design with a smart closet c
 
 This experience nudged my vision on design into a direction of Machine Learning and Artificial Intelligence, which are complex topics that can benefit from designs making it more intuitive to understand.
 
-**Deliverables**: [Group paper](), [individual poster](), [reflection]()
+**Deliverables**: [Group paper]({{ site.url }}/assets/download/fmp/Constructive-Design-Research-Paper.pdf), [individual poster]({{ site.url }}/assets/download/fmp/Constructive-Design-Research-Individual-Poster.pdf), [reflection]({{ site.url }}/assets/download/fmp/Constructive-Design-Research-Reflection.pdf)
 
 ## Design for Behavioural Change
 This course introduced five behaviour change theories, which we applied in a redesign of self-checkout areas to reduce shoplifting. It taught me how design can influence not only individual behaviours but also broader societal outcomes.
@@ -43,7 +43,7 @@ This course introduced five behaviour change theories, which we applied in a red
 
 ![Checkout Redesign Render](assets/images/m1/checkout-redesign.png)
 
-**Deliverable**: [Group report]()
+**Deliverable**: [Group report]({{ site.url }}/assets/download/fmp/Behavioral-Change-Report.pdf)
 
 ## (M1.2) Research Project: *Curiosity in user guide*
 I independently researched whether trivia questions in user guides trigger curiosity. I learned how to define and scope useful research and design solid user tests, while also learning a valuable lesson about working with external clients. This experience helped me take more control over my collaboration with Signify.
@@ -53,7 +53,7 @@ I independently researched whether trivia questions in user guides trigger curio
 
 ![User Guide Trivia](assets/images/m1/user-guide-trivia.png)
 
-**Deliverables**: [Research paper](), [reflection]()
+**Deliverables**: [Research paper]({{ site.url }}/assets/download/fmp/M12-Research-Project-Paper.pdf), [reflection]({{ site.url }}/assets/download/fmp/M12-Research-Project-Reflection.pdf)
 
 ## Designerly Perspective on IoT (track course)
 We explored rich interaction, focusing on intuitive design through affordances and feedback [3, 4]. I used greenscreen video editing as both communication and prototyping tools.
@@ -66,7 +66,7 @@ I was familiar with affordances before, but this course sparked how important I 
 <video src="{{ site.url }}/assets/images/m1/video-effects.mp4" controls="controls">
 </video>
 
-**Deliverables**: [Group report](), [video](), [reflection]()
+**Deliverables**: [Group report]({{ site.url }}/assets/download/fmp/Designerly-Perspective-IoT-Report.pdf), [video](https://youtu.be/YFmIOSBJQ-I), [reflection]({{ site.url }}/assets/download/fmp/Designerly-Perspective-IoT-Reflection.pdf)
 
 ## Data-Enabled Design
 We built two probes to measure dishwasher energy use and iterated our design based on real-time data from users' homes, based on data-enabled design principles [5]. I led the technical side, including hardware, programming, and data visualization.
@@ -76,7 +76,7 @@ We built two probes to measure dishwasher energy use and iterated our design bas
 
 ![Probe Electronics](assets/images/m1/probe-electronics.png)
 
-**Deliverables**: [Group pictorial](), [reflection]()
+**Deliverables**: [Group pictorial]({{ site.url }}/assets/download/fmp/Data-Enabled-Design-Pictorial.pdf), [reflection]({{ site.url }}/assets/download/fmp/Data-Enabled-Design-Reflection.pdf)
 
 ## (M2.1) Preparation FMP: *Creative home automation card set*
 I developed a card set to inspire users to think creatively about smart home automation. I tested it in a workshop setting that turned the experience into a game. It showed that combinational creativity can inspire users to make creative automations, forming the basis of my FMP.
@@ -88,7 +88,7 @@ This project confirmed my interest in smart home automation, allowing me to make
 
 ![Card Set](assets/images/m2/card-set.jpg)
 
-**Deliverables**: [Report](), [reflection]()
+**Deliverables**: [Report]({{ site.url }}/assets/download/fmp/M21-Preparation-FMP-Report.pdf), [reflection]({{ site.url }}/assets/download/fmp/M21-Preparation-FMP-Reflection.pdf)
 
 ## The Sound of Smart Things
 This course introduced sound as a design material, not only for feedback but also for feedforward. We designed sound interactions for smart environments, including public spaces like the Lucid bar. It made me realize how sound is underused in the smart home domain.
@@ -96,7 +96,7 @@ This course introduced sound as a design material, not only for feedback but als
 - **C&A**: Good sound design can make a design audibly aesthetic, but I believe it can also help improve the aesthetics of the interaction. Sound does not only have to be a means for providing feedback, but it can also be an excellent way of providing feedforward.
 - **MD&C**: Sounds can be surprisingly technical and mathematical. Sound waves are sine waves, the amplitude determines the volume and the frequency determines the pitch. Designing sounds often involves adjusting sine waves. Besides that, programs used for designing and adjusting sounds like Max or Plugdata are visual but highly technical and complex, very much like a visual programming language.
 
-**Deliverables**: [Group report](), [video](), [reflection]()
+**Deliverables**: [Group report]({{ site.url }}/assets/download/fmp/Sound-of-Smart-Things-Report.pdf), [video](https://youtu.be/M8_-zMnvGQM), [reflection]({{ site.url }}/assets/download/fmp/Sound-of-Smart-Things-Reflection.pdf)
 
 ## Bonus: Teacher Assistant at Creative Programming
 As a TA, I helped students with programming questions, graded assignments, and hosted two live coding demos. It improved my presentation skills and gave me a deeper appreciation for teachers.
